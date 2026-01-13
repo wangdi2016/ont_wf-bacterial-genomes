@@ -1,0 +1,99 @@
+[wangdi@cn4305 /data/wangdi/CGRProjects/ont/EBV]./re-run.sh
+[+] Loading java 17.0.17+10  ...
+[+] Loading singularity  4.2.2  on cn4305
+[+] Loading nextflow  25.10.0
+Nextflow 25.10.2 is available - Please consider updating your version to it
+
+ N E X T F L O W   ~  version 25.10.0
+
+Launching `https://github.com/epi2me-labs/wf-bacterial-genomes` [deadly_raman] DSL2 - revision: 8c27a3f786 [master]
+
+WARN: NEXTFLOW RECURSION IS A PREVIEW FEATURE - SYNTAX AND FUNCTIONALITY CAN CHANGE IN FUTURE RELEASES
+
+||||||||||   _____ ____ ___ ____  __  __ _____
+||||||||||  | ____|  _ \_ _|___ \|  \/  | ____|
+|||||       |  _| | |_) | |  __) | |\/| |  _|
+|||||       | |___|  __/| | / __/| |  | | |__
+||||||||||  |_____|_|  |___|_____|_|  |_|_____|
+||||||||||  wf-bacterial-genomes v2.0.1-g8c27a3f
+--------------------------------------------------------------------------------
+Core Nextflow options
+  revision       : master
+  runName        : deadly_raman
+  containerEngine: singularity
+  container      : [withLabel:wf_common:ontresearch/wf-common:shafdd79f8e4a6faad77513c36f623693977b92b08e, withLabel:wfbacterialgenomes:ontresearch/wf-bacterial-genomes:shab005a1bd7d4bb439bd864fecf5223e2741a53631, withLabel:bakta:ontresearch/bakta:shac050303e2ede73c23c47ce6eae8d4cad7b4cdc45, withLabel:mobsuite:ontresearch/mob-suite:sha58c5d9a5c325a9592e45bed117cd3492fe32a160, withLabel:medaka:ontresearch/medaka:shacf8338462607b17b1d68dbce212cb93daea50bad, withLabel:amr:ontresearch/resfinder:sha1f3a3b4134bcff53aa406b2236a325dab01b8b20, withLabel:mlst:ontresearch/mlst:sha8f8f258761d66116deb5b58b4204e5b7783a0c90, withLabel:seqsero2:ontresearch/seqsero2:sha96053b39b281e404cf1cf9c4684fa7dbc4e2761d, withLabel:sourmash:ontresearch/sourmash:shaa24757f555a797fb8bc6664f541357dd6f3b2854]
+  launchDir      : /vf/users/wangdi/CGRProjects/ont/EBV
+  workDir        : /vf/users/wangdi/CGRProjects/ont/EBV/work
+  projectDir     : /data/wangdi/.nextflow/25.10.0/assets/epi2me-labs/wf-bacterial-genomes
+  userName       : wangdi
+  profile        : singularity
+  configFiles    : /data/wangdi/.nextflow/25.10.0/assets/epi2me-labs/wf-bacterial-genomes/nextflow.config
+
+Input Options
+  fastq          : wf-bacterial-genomes-demo/isolates_fastq
+
+Sample Options
+  sample_sheet   : wf-bacterial-genomes-demo/isolates_sample_sheet.csv
+
+Advanced Options
+  run_bakta      : false
+  bakta_db       : /data/wangdi/CGRProjects/ont/EBV/db
+
+!! Only displaying parameters that differ from the pipeline defaults !!
+--------------------------------------------------------------------------------
+If you use epi2me-labs/wf-bacterial-genomes for your analysis please cite:
+
+* The nf-core framework
+  https://doi.org/10.1038/s41587-020-0439-x
+
+
+--------------------------------------------------------------------------------
+This is epi2me-labs/wf-bacterial-genomes v2.0.1-g8c27a3f.
+--------------------------------------------------------------------------------
+Searching input for [.fastq, .fastq.gz, .fq, .fq.gz] files.
+executor >  local (44)
+[4f/73c489] process > validate_sample_sheet                                   [100%] 1 of 1, cached: 1 ✔
+[8e/aa5b3d] process > fastcat (2)                                             [100%] 2 of 2, cached: 2 ✔
+[53/487b84] process > calling_pipeline:ingressCheckpoint (1)                  [100%] 2 of 2, cached: 2 ✔
+[61/8b62f1] process > calling_pipeline:deNovo (1)                             [100%] 2 of 2, cached: 2 ✔
+[bd/cc9250] process > calling_pipeline:runDnaapler (1)                        [100%] 2 of 2, cached: 2 ✔
+[55/0263fc] process > calling_pipeline:alignReads (2)                         [100%] 2 of 2, cached: 2 ✔
+[ac/e89fc6] process > calling_pipeline:alignmentCheckpoint (2)                [100%] 2 of 2, cached: 2 ✔
+[56/db5848] process > calling_pipeline:readStats (2)                          [100%] 2 of 2, cached: 2 ✔
+[1f/fc314f] process > calling_pipeline:coverStats (2)                         [100%] 2 of 2, cached: 2 ✔
+[05/9ddc50] process > calling_pipeline:splitRegions (2)                       [100%] 2 of 2, cached: 2 ✔
+[ee/e335a6] process > calling_pipeline:medakaInference_consensus (337)        [100%] 337 of 337, cached: 337 ✔
+[87/4fad39] process > calling_pipeline:medakaConsensus (1)                    [100%] 2 of 2, cached: 2 ✔
+[31/7416c8] process > calling_pipeline:assemblyCheckpoint (2)                 [100%] 2 of 2, cached: 2 ✔
+[c2/44d991] process > calling_pipeline:variantCheckpoint (2)                  [100%] 2 of 2, cached: 2 ✔
+[0e/f7a0e3] process > calling_pipeline:runMobSuite (1)                        [100%] 2 of 2, cached: 2 ✔
+[97/46d914] process > calling_pipeline:plasmidIdCheckpoint (2)                [100%] 2 of 2, cached: 2 ✔
+[79/5ffe22] process > calling_pipeline:annotationCheckpoint (1)               [100%] 2 of 2, cached: 2 ✔
+[e3/09ef06] process > calling_pipeline:run_isolates:mlstSearch (2)            [100%] 2 of 2, cached: 2 ✔
+[6d/1012b6] process > calling_pipeline:run_isolates:create_sourmash_picklist  [100%] 1 of 1, cached: 1 ✔
+[5f/8b3114] process > calling_pipeline:run_isolates:sourmash_species_id (2)   [100%] 2 of 2, cached: 2 ✔
+[c8/04211d] process > calling_pipeline:run_isolates:getPointfinderSpecies (1) [100%] 2 of 2, cached: 2 ✔
+[a5/dc78af] process > calling_pipeline:run_isolates:resfinder (2)             [100%] 2 of 2, cached: 2 ✔
+[73/0860d4] process > calling_pipeline:run_isolates:serotyping (1)            [100%] 1 of 1, cached: 1 ✔
+[55/e9c111] process > calling_pipeline:amrCheckpoint (2)                      [100%] 2 of 2, cached: 2 ✔
+[d1/bff4dd] process > calling_pipeline:baktaVersion                           [100%] 1 of 1, cached: 1 ✔
+[e7/21e348] process > calling_pipeline:medakaVersion                          [100%] 1 of 1, cached: 1 ✔
+[5f/de01c2] process > calling_pipeline:mlstVersion                            [100%] 1 of 1, cached: 1 ✔
+[02/71db88] process > calling_pipeline:sourmashVersion                        [100%] 1 of 1, cached: 1 ✔
+[a3/07128f] process > calling_pipeline:mobsuiteVersion                        [100%] 1 of 1, cached: 1 ✔
+[bc/9756c4] process > calling_pipeline:resfinderVersion                       [100%] 1 of 1, cached: 1 ✔
+[9b/41ae32] process > calling_pipeline:seqseroVersion                         [100%] 1 of 1, cached: 1 ✔
+[01/ad435d] process > calling_pipeline:getVersions                            [100%] 1 of 1, cached: 1 ✔
+[a5/b1a478] process > calling_pipeline:getParams                              [100%] 1 of 1, cached: 1 ✔
+[3a/58874f] process > calling_pipeline:collect_results (2)                    [100%] 2 of 2, cached: 2 ✔
+[3a/f19e3a] process > calling_pipeline:createRunModel                         [100%] 1 of 1 ✔
+[28/e198a2] process > calling_pipeline:collectFastqIngressResultsInDir (2)    [100%] 2 of 2, cached: 2 ✔
+[92/480ed5] process > calling_pipeline:makeReport                             [100%] 1 of 1 ✔
+[6b/b1468a] process > calling_pipeline:reportingCheckpoint                    [100%] 1 of 1 ✔
+[71/d9d117] process > calling_pipeline:makePerSampleReports (2)               [100%] 2 of 2 ✔
+[91/4c0560] process > calling_pipeline:perSampleReportingCheckpoint (2)       [100%] 2 of 2 ✔
+[e8/07a16e] process > calling_pipeline:accumulateCheckpoints (17)             [100%] 17 of 17 ✔
+[d8/e5c4aa] process > output (22)                                             [100%] 24 of 24, cached: 4 ✔
+Running Denovo assembly.
+
+[wangdi@cn4305 /data/wangdi/CGRProjects/ont/EBV]
