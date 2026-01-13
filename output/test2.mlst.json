@@ -1,0 +1,17 @@
+[
+   {
+      "alleles" : {
+         "aroC" : "114",
+         "sucA" : "-",
+         "purE" : "~1203",
+         "dnaN" : "-",
+         "hisD" : "114",
+         "hemD" : "8",
+         "thrA" : "109"
+      },
+      "scheme" : "senterica_achtman_2",
+      "filename" : "input_genome.fasta",
+      "sequence_type" : "-",
+      "id" : "test2"
+   }
+]

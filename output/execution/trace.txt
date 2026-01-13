@@ -1,0 +1,442 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+3	d1/bff4dd	716907	calling_pipeline:baktaVersion	CACHED	0	2026-01-12 18:50:30.524	7.4s	6.1s	98.3%	170.6 MB	2.5 GB	24.7 MB	26.2 KB
+1	4f/73c489	716923	validate_sample_sheet	CACHED	0	2026-01-12 18:50:30.571	724ms	232ms	91.0%	12.6 MB	18.2 MB	1.1 MB	1.5 KB
+2	6d/1012b6	716912	calling_pipeline:run_isolates:create_sourmash_picklist	CACHED	0	2026-01-12 18:50:30.544	5.2s	4.4s	114.1%	293.9 MB	2.4 GB	32.9 MB	10.9 MB
+4	a5/b1a478	716919	calling_pipeline:getParams	CACHED	0	2026-01-12 18:50:30.557	685ms	8ms	47.1%	0	0	100.8 KB	3.7 KB
+5	e7/21e348	720982	calling_pipeline:medakaVersion	CACHED	0	2026-01-12 18:50:38.177	5.3s	4.7s	91.2%	321 MB	756.4 MB	34 MB	6.3 KB
+6	5f/de01c2	722577	calling_pipeline:mlstVersion	CACHED	0	2026-01-12 18:50:44.094	567ms	162ms	85.8%	10.1 MB	17.2 MB	957.7 KB	1.9 KB
+9	02/71db88	723721	calling_pipeline:sourmashVersion	CACHED	0	2026-01-12 18:50:45.370	2.6s	2.2s	124.3%	110.5 MB	2.2 GB	15.4 MB	1.9 KB
+10	a3/07128f	725143	calling_pipeline:mobsuiteVersion	CACHED	0	2026-01-12 18:50:48.592	2.5s	2.1s	136.9%	95.8 MB	2.3 GB	26.7 MB	2 KB
+11	bc/9756c4	726271	calling_pipeline:resfinderVersion	CACHED	0	2026-01-12 18:50:51.704	2.3s	1.5s	132.7%	77.2 MB	2.2 GB	12.4 MB	2.1 KB
+7	d6/1ca7e2	717463	fastcat (1)	CACHED	0	2026-01-12 18:50:31.343	5.6s	4.9s	408.3%	97.4 MB	527.1 MB	488.5 MB	489.5 MB
+8	8e/aa5b3d	717503	fastcat (2)	CACHED	0	2026-01-12 18:50:31.440	1.2s	760ms	287.9%	94.9 MB	526.5 MB	72.1 MB	73 MB
+12	9b/41ae32	726917	calling_pipeline:seqseroVersion	CACHED	0	2026-01-12 18:50:54.766	1.1s	649ms	93.4%	16.7 MB	25.9 MB	3.5 MB	2.2 KB
+13	01/ad435d	727648	calling_pipeline:getVersions	CACHED	0	2026-01-12 18:50:55.842	3.3s	2.9s	122.6%	80.6 MB	2.2 GB	18.4 MB	2.9 KB
+15	1a/bf1612	720268	calling_pipeline:variantCheckpoint (2)	CACHED	0	2026-01-12 18:50:37.077	1.1s	14ms	37.8%	0	0	84.2 KB	1.4 KB
+22	38/ad4d09	718192	calling_pipeline:annotationCheckpoint (1)	CACHED	0	2026-01-12 18:50:32.758	643ms	6ms	73.6%	0	0	84.2 KB	1.4 KB
+14	53/487b84	720300	calling_pipeline:ingressCheckpoint (2)	CACHED	0	2026-01-12 18:50:37.141	1.4s	12ms	19.9%	0	0	84.4 KB	1.6 KB
+21	8a/52f80e	718141	calling_pipeline:ingressCheckpoint (1)	CACHED	0	2026-01-12 18:50:32.703	613ms	6ms	87.7%	0	0	84.4 KB	1.6 KB
+23	c2/44d991	718145	calling_pipeline:variantCheckpoint (1)	CACHED	0	2026-01-12 18:50:32.716	773ms	36ms	29.5%	0	0	84.2 KB	1.4 KB
+18	79/5ffe22	720264	calling_pipeline:annotationCheckpoint (2)	CACHED	0	2026-01-12 18:50:37.057	1.4s	11ms	31.1%	0	0	84.2 KB	1.4 KB
+17	af/469163	720288	calling_pipeline:collectFastqIngressResultsInDir (2)	CACHED	0	2026-01-12 18:50:37.123	1s	68ms	31.6%	0	0	116.7 KB	1.7 KB
+19	28/e198a2	718166	calling_pipeline:collectFastqIngressResultsInDir (1)	CACHED	0	2026-01-12 18:50:32.734	856ms	54ms	36.1%	0	0	116.8 KB	1.7 KB
+20	45/a13395	718232	calling_pipeline:deNovo (1)	CACHED	0	2026-01-12 18:50:32.779	1m 3s	1m 2s	243.7%	237.2 MB	725.9 MB	664.7 MB	335.9 MB
+16	61/8b62f1	721190	calling_pipeline:deNovo (2)	CACHED	0	2026-01-12 18:50:38.573	5m 43s	5m 42s	243.2%	1.9 GB	2.4 GB	3.1 GB	1.7 GB
+26	8f/398b94	749562	calling_pipeline:runDnaapler (2)	CACHED	0	2026-01-12 18:56:21.333	1m 23s	1m 22s	238.8%	1.1 GB	4.4 GB	87.7 MB	115 MB
+25	bd/cc9250	732919	calling_pipeline:runDnaapler (1)	CACHED	0	2026-01-12 18:51:35.971	48.4s	48s	272.4%	1.1 GB	4.1 GB	62.3 MB	96.2 MB
+27	9a/ea0f76	904087	calling_pipeline:alignReads (2)	CACHED	0	2026-01-12 19:02:01.853	20.3s	19.9s	289.9%	614 MB	3.7 GB	882.9 MB	735.9 MB
+30	4c/6c95e3	906909	calling_pipeline:alignmentCheckpoint (2)	CACHED	0	2026-01-12 19:02:22.166	622ms	6ms	97.7%	0	0	84.3 KB	1.5 KB
+28	55/0263fc	737377	calling_pipeline:alignReads (1)	CACHED	0	2026-01-12 18:52:24.431	3.7s	3.4s	272.1%	106.8 MB	402.9 MB	131.9 MB	106.2 MB
+31	f7/eebf31	906890	calling_pipeline:readStats (2)	CACHED	0	2026-01-12 19:02:22.155	1.7s	1.2s	95.3%	164.5 MB	333.4 MB	169.5 MB	3.5 MB
+29	82/195674	906889	calling_pipeline:coverStats (2)	CACHED	0	2026-01-12 19:02:22.147	2.3s	1.7s	205.8%	24.3 MB	230.8 MB	501 MB	502 KB
+36	ac/e89fc6	738015	calling_pipeline:alignmentCheckpoint (1)	CACHED	0	2026-01-12 18:52:28.176	617ms	12ms	110.3%	0	0	84.3 KB	1.5 KB
+32	1f/f5abd9	906935	calling_pipeline:splitRegions (2)	CACHED	0	2026-01-12 19:02:22.175	981ms	455ms	87.2%	8.7 MB	11.7 MB	3.5 MB	1.5 KB
+33	05/9ddc50	738058	calling_pipeline:splitRegions (1)	CACHED	0	2026-01-12 18:52:28.201	1s	458ms	85.7%	7.8 MB	11.4 MB	3.5 MB	11 KB
+34	56/db5848	738001	calling_pipeline:readStats (1)	CACHED	0	2026-01-12 18:52:28.157	757ms	334ms	85.7%	94.4 MB	333.4 MB	21.5 MB	1 MB
+51	9a/b4c153	753651	calling_pipeline:medakaInference_consensus (9)	CACHED	0	2026-01-12 18:56:30.078	6.6s	5.8s	99.2%	320.8 MB	755.2 MB	40.2 MB	1.6 MB
+35	1f/fc314f	738032	calling_pipeline:coverStats (1)	CACHED	0	2026-01-12 18:52:28.188	1.4s	931ms	173.2%	7.9 MB	214.4 MB	414.8 MB	635.7 KB
+48	f1/2c3254	753172	calling_pipeline:medakaInference_consensus (6)	CACHED	0	2026-01-12 18:56:29.415	8s	7.3s	127.9%	480.4 MB	1.2 GB	40.2 MB	2 MB
+49	2a/66eef9	749514	calling_pipeline:medakaInference_consensus (7)	CACHED	0	2026-01-12 18:56:21.281	8.8s	8.1s	124.8%	479.6 MB	1.2 GB	40.3 MB	2 MB
+50	d1/5517ce	753165	calling_pipeline:medakaInference_consensus (8)	CACHED	0	2026-01-12 18:56:29.401	6.6s	5.8s	107.8%	371.9 MB	1.2 GB	40.2 MB	1.7 MB
+44	c5/765372	756955	calling_pipeline:medakaInference_consensus (2)	CACHED	0	2026-01-12 18:56:37.385	6.8s	6.2s	109.3%	393.6 MB	1.2 GB	40.2 MB	1.7 MB
+52	02/1cd04d	753646	calling_pipeline:medakaInference_consensus (10)	CACHED	0	2026-01-12 18:56:30.068	7.4s	6.7s	107.5%	376 MB	1.1 GB	40.2 MB	1.7 MB
+39	7b/77ccec	907682	calling_pipeline:medakaInference_consensus (334)	CACHED	0	2026-01-12 19:02:23.225	38.2s	37.5s	177.3%	6.8 GB	7.8 GB	89 MB	35.5 MB
+43	a7/bfb0e3	749615	calling_pipeline:medakaInference_consensus (1)	CACHED	0	2026-01-12 18:56:21.378	8.7s	8s	124.6%	585.5 MB	1.4 GB	40.3 MB	2.4 MB
+38	22/5739f2	907617	calling_pipeline:medakaInference_consensus (333)	CACHED	0	2026-01-12 19:02:23.199	32.8s	32.2s	178.6%	6.8 GB	7.8 GB	87.6 MB	35 MB
+46	8b/257cb4	753662	calling_pipeline:medakaInference_consensus (4)	CACHED	0	2026-01-12 18:56:30.090	7.5s	6.7s	113.7%	381.7 MB	1.2 GB	40.3 MB	1.7 MB
+41	8e/4977c2	907660	calling_pipeline:medakaInference_consensus (336)	CACHED	0	2026-01-12 19:02:23.213	23.1s	21.9s	162.0%	3.9 GB	4.9 GB	60 MB	15.5 MB
+45	f3/0351fc	756130	calling_pipeline:medakaInference_consensus (3)	CACHED	0	2026-01-12 18:56:36.001	7.8s	7.2s	119.8%	479.9 MB	1.2 GB	40.3 MB	2 MB
+42	26/972c7d	907703	calling_pipeline:medakaInference_consensus (337)	CACHED	0	2026-01-12 19:02:23.244	16.7s	15.8s	155.9%	2.1 GB	2.9 GB	49.3 MB	7.9 MB
+53	44/912596	749592	calling_pipeline:medakaInference_consensus (11)	CACHED	0	2026-01-12 18:56:21.363	8s	7.1s	116.9%	409.8 MB	1.1 GB	40.2 MB	1.8 MB
+40	7b/401468	907598	calling_pipeline:medakaInference_consensus (335)	CACHED	0	2026-01-12 19:02:23.179	40.8s	40.2s	179.7%	6.6 GB	7.6 GB	87.9 MB	35.3 MB
+37	0b/649df5	907603	calling_pipeline:medakaInference_consensus (332)	CACHED	0	2026-01-12 19:02:23.189	29.7s	29.2s	178.5%	6.6 GB	7.6 GB	84.3 MB	35 MB
+56	29/2cfcfe	749640	calling_pipeline:medakaInference_consensus (14)	CACHED	0	2026-01-12 18:56:21.397	8s	7.3s	115.4%	394.1 MB	1.1 GB	40.2 MB	1.8 MB
+55	a1/4ded2a	749482	calling_pipeline:medakaInference_consensus (13)	CACHED	0	2026-01-12 18:56:21.248	8.3s	7.7s	110.2%	401 MB	1.2 GB	40.2 MB	1.8 MB
+47	9b/a183d3	749709	calling_pipeline:medakaInference_consensus (5)	CACHED	0	2026-01-12 18:56:21.433	8.6s	7.8s	123.7%	478.7 MB	1.2 GB	40.3 MB	2 MB
+58	15/e8c434	756547	calling_pipeline:medakaInference_consensus (16)	CACHED	0	2026-01-12 18:56:36.674	6.9s	6.3s	116.5%	413.3 MB	1.1 GB	40.2 MB	1.8 MB
+62	e0/748c67	759111	calling_pipeline:medakaInference_consensus (20)	CACHED	0	2026-01-12 18:56:43.574	7.5s	6.8s	121.1%	479.1 MB	1.2 GB	40.3 MB	2 MB
+59	e8/845588	757107	calling_pipeline:medakaInference_consensus (17)	CACHED	0	2026-01-12 18:56:37.575	8.8s	8.3s	125.3%	597 MB	1.3 GB	40.4 MB	2.4 MB
+54	1c/f4c44a	753276	calling_pipeline:medakaInference_consensus (12)	CACHED	0	2026-01-12 18:56:29.555	7s	6.4s	114.5%	379.8 MB	1.1 GB	40.2 MB	1.7 MB
+67	9a/a0bfc9	762484	calling_pipeline:medakaInference_consensus (25)	CACHED	0	2026-01-12 18:56:52.228	7.1s	6.2s	110.2%	390 MB	1.1 GB	40.2 MB	1.7 MB
+71	34/4607b2	771513	calling_pipeline:medakaInference_consensus (29)	CACHED	0	2026-01-12 18:57:15.187	7.5s	7s	114.9%	413.5 MB	1.1 GB	40.2 MB	1.8 MB
+69	cf/45aa47	759255	calling_pipeline:medakaInference_consensus (27)	CACHED	0	2026-01-12 18:56:43.810	8.4s	7.8s	122.5%	477.7 MB	1.2 GB	40.3 MB	2 MB
+63	f0/9063fd	762584	calling_pipeline:medakaInference_consensus (21)	CACHED	0	2026-01-12 18:56:52.486	8.4s	7.8s	122.6%	478.7 MB	1.2 GB	40.3 MB	2 MB
+75	28/349e08	762913	calling_pipeline:medakaInference_consensus (33)	CACHED	0	2026-01-12 18:56:52.988	8s	7.5s	122.2%	480.3 MB	1.2 GB	40.3 MB	2 MB
+65	05/133835	759019	calling_pipeline:medakaInference_consensus (23)	CACHED	0	2026-01-12 18:56:43.303	9.2s	8.2s	127.1%	521.2 MB	1.2 GB	40.4 MB	2.2 MB
+70	80/9a575d	762634	calling_pipeline:medakaInference_consensus (28)	CACHED	0	2026-01-12 18:56:52.608	6.6s	6s	107.4%	391.3 MB	1.1 GB	40.2 MB	1.7 MB
+64	7f/6812f5	760256	calling_pipeline:medakaInference_consensus (22)	CACHED	0	2026-01-12 18:56:45.503	7.5s	6.9s	125.1%	459.1 MB	1.2 GB	40.3 MB	2 MB
+66	da/d12268	760643	calling_pipeline:medakaInference_consensus (24)	CACHED	0	2026-01-12 18:56:46.402	6.8s	6.2s	103.1%	362.7 MB	1.1 GB	40.2 MB	1.7 MB
+73	4a/00797b	768870	calling_pipeline:medakaInference_consensus (31)	CACHED	0	2026-01-12 18:57:07.935	7.2s	6.6s	115.1%	404.6 MB	1.2 GB	40.3 MB	1.8 MB
+72	7d/ede719	762110	calling_pipeline:medakaInference_consensus (30)	CACHED	0	2026-01-12 18:56:51.061	6.8s	6.1s	108.8%	383.3 MB	1.2 GB	40.2 MB	1.8 MB
+68	4a/8f6e44	764673	calling_pipeline:medakaInference_consensus (26)	CACHED	0	2026-01-12 18:56:57.926	8.1s	7.1s	117.1%	480 MB	1.2 GB	40.2 MB	2 MB
+61	0a/3d2e60	759620	calling_pipeline:medakaInference_consensus (19)	CACHED	0	2026-01-12 18:56:44.152	8.4s	7.9s	121.7%	479.5 MB	1.2 GB	40.3 MB	2 MB
+57	19/58259d	756508	calling_pipeline:medakaInference_consensus (15)	CACHED	0	2026-01-12 18:56:36.595	6.7s	6s	101.3%	343.9 MB	1.1 GB	40.2 MB	1.6 MB
+77	85/eb329e	765158	calling_pipeline:medakaInference_consensus (35)	CACHED	0	2026-01-12 18:56:59.259	7.9s	7.3s	121.6%	479 MB	1.2 GB	40.3 MB	2 MB
+60	54/08aa3f	756985	calling_pipeline:medakaInference_consensus (18)	CACHED	0	2026-01-12 18:56:37.438	8.1s	7.5s	124.4%	480 MB	1.2 GB	40.3 MB	2 MB
+74	19/9f2082	763104	calling_pipeline:medakaInference_consensus (32)	CACHED	0	2026-01-12 18:56:53.170	8.1s	7.6s	123.4%	478 MB	1.2 GB	40.2 MB	2 MB
+76	ff/57d613	769396	calling_pipeline:medakaInference_consensus (34)	CACHED	0	2026-01-12 18:57:09.260	7.4s	6.9s	113.5%	394.1 MB	1.1 GB	40.2 MB	1.8 MB
+84	c4/8dcb23	765180	calling_pipeline:medakaInference_consensus (42)	CACHED	0	2026-01-12 18:56:59.291	6.7s	6s	105.9%	361.1 MB	1.1 GB	40.2 MB	1.7 MB
+82	2b/959993	765821	calling_pipeline:medakaInference_consensus (40)	CACHED	0	2026-01-12 18:57:00.908	8.3s	7.9s	125.7%	509.2 MB	1.2 GB	40.5 MB	2.2 MB
+81	58/2d0070	767816	calling_pipeline:medakaInference_consensus (39)	CACHED	0	2026-01-12 18:57:05.996	8.8s	7.9s	120.6%	538.3 MB	1.3 GB	40.4 MB	2.2 MB
+88	89/63c02b	771287	calling_pipeline:medakaInference_consensus (46)	CACHED	0	2026-01-12 18:57:14.811	8.8s	8.2s	122.7%	478.7 MB	1.3 GB	40.2 MB	2 MB
+87	9c/f519b6	770560	calling_pipeline:medakaInference_consensus (45)	CACHED	0	2026-01-12 18:57:12.774	7.1s	6.5s	116.3%	391.3 MB	1.2 GB	40.2 MB	1.8 MB
+86	e8/8430b2	768353	calling_pipeline:medakaInference_consensus (44)	CACHED	0	2026-01-12 18:57:07.192	7.6s	6.8s	119.3%	409.8 MB	1.1 GB	40.2 MB	1.8 MB
+89	3d/53b5d4	772285	calling_pipeline:medakaInference_consensus (47)	CACHED	0	2026-01-12 18:57:16.715	6.6s	6.1s	108.3%	382.6 MB	1.1 GB	40.2 MB	1.7 MB
+83	f3/a5e91a	769287	calling_pipeline:medakaInference_consensus (41)	CACHED	0	2026-01-12 18:57:08.900	6.5s	6s	106.2%	364.5 MB	1.1 GB	40.2 MB	1.7 MB
+80	c5/faec90	765944	calling_pipeline:medakaInference_consensus (38)	CACHED	0	2026-01-12 18:57:00.976	7.9s	7.5s	127.2%	520.2 MB	1.3 GB	40.3 MB	2.2 MB
+78	d0/f4526b	766149	calling_pipeline:medakaInference_consensus (36)	CACHED	0	2026-01-12 18:57:01.265	6.7s	6s	110.7%	393 MB	1.2 GB	40.2 MB	1.7 MB
+90	7e/b5b2b5	771762	calling_pipeline:medakaInference_consensus (48)	CACHED	0	2026-01-12 18:57:15.426	6.2s	5.7s	107.7%	357.7 MB	1.1 GB	40.2 MB	1.7 MB
+79	98/cee748	767823	calling_pipeline:medakaInference_consensus (37)	CACHED	0	2026-01-12 18:57:06.010	6.7s	6.2s	111.1%	392.6 MB	1.1 GB	40.2 MB	1.7 MB
+85	41/acca19	771288	calling_pipeline:medakaInference_consensus (43)	CACHED	0	2026-01-12 18:57:14.824	6.5s	6s	110.2%	384.7 MB	1.1 GB	40.2 MB	1.7 MB
+100	9f/0efc06	782474	calling_pipeline:medakaInference_consensus (58)	CACHED	0	2026-01-12 18:57:43.238	6.2s	5.6s	104.7%	353.2 MB	1.1 GB	40.2 MB	1.7 MB
+102	fd/1cf7c1	777106	calling_pipeline:medakaInference_consensus (60)	CACHED	0	2026-01-12 18:57:29.436	7.5s	6.9s	114.9%	398.5 MB	1.1 GB	40.2 MB	1.7 MB
+101	4a/6a845d	777397	calling_pipeline:medakaInference_consensus (59)	CACHED	0	2026-01-12 18:57:30.092	6.1s	5.6s	110.0%	346.4 MB	1.1 GB	40.2 MB	1.7 MB
+93	bc/c79602	776970	calling_pipeline:medakaInference_consensus (51)	CACHED	0	2026-01-12 18:57:29.077	6.5s	5.9s	113.7%	369.5 MB	1.1 GB	40.2 MB	1.7 MB
+92	78/4d471b	773361	calling_pipeline:medakaInference_consensus (50)	CACHED	0	2026-01-12 18:57:19.846	7.6s	7s	121.8%	438 MB	1.2 GB	40.2 MB	2 MB
+95	77/f2c116	773909	calling_pipeline:medakaInference_consensus (53)	CACHED	0	2026-01-12 18:57:21.291	8.1s	7.6s	126.3%	480.3 MB	1.2 GB	40.3 MB	2 MB
+98	95/513e28	774948	calling_pipeline:medakaInference_consensus (56)	CACHED	0	2026-01-12 18:57:23.307	6.8s	6.3s	108.5%	377.6 MB	1.1 GB	40.2 MB	1.7 MB
+96	2a/e4d6c2	775118	calling_pipeline:medakaInference_consensus (54)	CACHED	0	2026-01-12 18:57:23.675	7.6s	7.2s	121.9%	478.1 MB	1.2 GB	40.2 MB	2 MB
+97	98/3a4874	777904	calling_pipeline:medakaInference_consensus (55)	CACHED	0	2026-01-12 18:57:31.332	6.5s	5.8s	106.8%	361.4 MB	1.2 GB	40.2 MB	1.7 MB
+91	a9/f8299a	774063	calling_pipeline:medakaInference_consensus (49)	CACHED	0	2026-01-12 18:57:21.639	7.4s	6.7s	113.0%	403.3 MB	1.1 GB	40.2 MB	1.8 MB
+109	9a/6353e9	785535	calling_pipeline:medakaInference_consensus (67)	CACHED	0	2026-01-12 18:57:49.438	8.2s	7.5s	122.2%	478.5 MB	1.3 GB	40.2 MB	2 MB
+94	59/89fa0d	774440	calling_pipeline:medakaInference_consensus (52)	CACHED	0	2026-01-12 18:57:22.674	8.6s	8.1s	124.4%	509.4 MB	1.2 GB	40.3 MB	2.2 MB
+106	b6/f2a860	780611	calling_pipeline:medakaInference_consensus (64)	CACHED	0	2026-01-12 18:57:37.894	7.3s	6.8s	111.1%	395.6 MB	1.2 GB	40.3 MB	1.7 MB
+104	d7/4e9ed8	779329	calling_pipeline:medakaInference_consensus (62)	CACHED	0	2026-01-12 18:57:35.610	7.9s	7.3s	123.2%	478.4 MB	1.3 GB	40.2 MB	2 MB
+110	dc/5688e0	780685	calling_pipeline:medakaInference_consensus (68)	CACHED	0	2026-01-12 18:57:38.088	8.1s	7.6s	128.5%	519.8 MB	1.2 GB	40.5 MB	2.2 MB
+107	15/94194d	779736	calling_pipeline:medakaInference_consensus (65)	CACHED	0	2026-01-12 18:57:36.200	7s	6.5s	121.8%	459.7 MB	1.2 GB	40.3 MB	2 MB
+103	b7/8180a3	782947	calling_pipeline:medakaInference_consensus (61)	CACHED	0	2026-01-12 18:57:44.095	8s	7.5s	129.8%	533.6 MB	1.2 GB	40.3 MB	2.2 MB
+108	93/82558c	777881	calling_pipeline:medakaInference_consensus (66)	CACHED	0	2026-01-12 18:57:31.295	6.8s	6.1s	108.1%	380.3 MB	1.2 GB	40.2 MB	1.7 MB
+115	ee/98ad88	782962	calling_pipeline:medakaInference_consensus (73)	CACHED	0	2026-01-12 18:57:44.114	7.2s	6.7s	122.7%	459.1 MB	1.2 GB	40.3 MB	2 MB
+112	ae/f36ea7	780118	calling_pipeline:medakaInference_consensus (70)	CACHED	0	2026-01-12 18:57:36.914	7.6s	7.2s	123.0%	478.1 MB	1.3 GB	40.3 MB	2 MB
+99	d0/55d99b	776271	calling_pipeline:medakaInference_consensus (57)	CACHED	0	2026-01-12 18:57:27.473	8.4s	7.8s	125.9%	522.1 MB	1.2 GB	40.3 MB	2.2 MB
+117	d5/e52a3d	785508	calling_pipeline:medakaInference_consensus (75)	CACHED	0	2026-01-12 18:57:49.418	8.2s	7.6s	120.0%	479.1 MB	1.2 GB	40.3 MB	2 MB
+119	43/e6b00e	783703	calling_pipeline:medakaInference_consensus (77)	CACHED	0	2026-01-12 18:57:45.177	6.7s	6.1s	112.7%	394.8 MB	1.1 GB	40.2 MB	1.7 MB
+113	2d/5d5877	782256	calling_pipeline:medakaInference_consensus (71)	CACHED	0	2026-01-12 18:57:42.856	6.6s	5.9s	110.8%	375.5 MB	1.2 GB	40.2 MB	1.7 MB
+111	f0/208604	782604	calling_pipeline:medakaInference_consensus (69)	CACHED	0	2026-01-12 18:57:43.494	7.8s	7.3s	123.0%	478.6 MB	1.3 GB	40.3 MB	2 MB
+124	69/e581fc	786729	calling_pipeline:medakaInference_consensus (82)	CACHED	0	2026-01-12 18:57:51.856	7.2s	6.7s	108.1%	383.9 MB	1 GB	40.2 MB	1.7 MB
+116	c5/33c05a	783394	calling_pipeline:medakaInference_consensus (74)	CACHED	0	2026-01-12 18:57:44.563	7.2s	6.6s	117.1%	395.5 MB	1.1 GB	40.2 MB	1.8 MB
+122	a5/74f23a	786956	calling_pipeline:medakaInference_consensus (80)	CACHED	0	2026-01-12 18:57:52.137	7.8s	7.2s	119.8%	479.5 MB	1.2 GB	40.3 MB	2 MB
+118	91/83241a	786334	calling_pipeline:medakaInference_consensus (76)	CACHED	0	2026-01-12 18:57:51.289	6.4s	5.7s	106.1%	359.2 MB	1.1 GB	40.2 MB	1.7 MB
+121	81/a93df0	786353	calling_pipeline:medakaInference_consensus (79)	CACHED	0	2026-01-12 18:57:51.318	6.8s	6.1s	110.2%	380.8 MB	1.2 GB	40.2 MB	1.7 MB
+105	3c/86be7c	779527	calling_pipeline:medakaInference_consensus (63)	CACHED	0	2026-01-12 18:57:35.902	6.9s	6.5s	112.5%	386.9 MB	1.1 GB	40.2 MB	1.7 MB
+114	ea/afbc2a	787496	calling_pipeline:medakaInference_consensus (72)	CACHED	0	2026-01-12 18:57:53.033	6.2s	5.8s	102.9%	357.2 MB	1.1 GB	40.2 MB	1.7 MB
+123	5d/165adf	786696	calling_pipeline:medakaInference_consensus (81)	CACHED	0	2026-01-12 18:57:51.809	6.9s	6.3s	103.5%	373.8 MB	1.1 GB	40.2 MB	1.7 MB
+120	7f/3ad087	789266	calling_pipeline:medakaInference_consensus (78)	CACHED	0	2026-01-12 18:57:57.613	7.4s	6.9s	114.8%	401 MB	1.1 GB	40.3 MB	1.8 MB
+127	d5/15adf7	789376	calling_pipeline:medakaInference_consensus (85)	CACHED	0	2026-01-12 18:57:57.720	6.7s	6.1s	110.2%	383 MB	1.1 GB	40.2 MB	1.7 MB
+126	72/807903	789270	calling_pipeline:medakaInference_consensus (84)	CACHED	0	2026-01-12 18:57:57.623	6.8s	6.2s	106.2%	368.3 MB	1.1 GB	40.2 MB	1.7 MB
+125	c0/635548	784221	calling_pipeline:medakaInference_consensus (83)	CACHED	0	2026-01-12 18:57:46.218	6.8s	6.3s	110.0%	399.3 MB	1.1 GB	40.2 MB	1.8 MB
+137	8e/b35993	796634	calling_pipeline:medakaInference_consensus (95)	CACHED	0	2026-01-12 18:58:12.152	6.6s	6s	104.3%	360.6 MB	1.1 GB	40.2 MB	1.6 MB
+136	27/64e1a5	797556	calling_pipeline:medakaInference_consensus (94)	CACHED	0	2026-01-12 18:58:13.749	8s	7.5s	122.9%	478.9 MB	1.2 GB	40.3 MB	2 MB
+139	cd/714792	797624	calling_pipeline:medakaInference_consensus (97)	CACHED	0	2026-01-12 18:58:13.787	6.4s	5.8s	104.9%	365.5 MB	1 GB	40.2 MB	1.7 MB
+132	fc/107ecf	790240	calling_pipeline:medakaInference_consensus (90)	CACHED	0	2026-01-12 18:57:59.053	7s	6.5s	112.0%	386.3 MB	1.1 GB	40.2 MB	1.7 MB
+128	74/3a6bdd	789721	calling_pipeline:medakaInference_consensus (86)	CACHED	0	2026-01-12 18:57:58.144	7.1s	6.5s	114.1%	393.3 MB	1.2 GB	40.3 MB	1.8 MB
+135	45/0e05b6	795922	calling_pipeline:medakaInference_consensus (93)	CACHED	0	2026-01-12 18:58:10.915	8s	7.4s	126.6%	478 MB	1.2 GB	40.3 MB	2 MB
+131	8c/adbd38	790128	calling_pipeline:medakaInference_consensus (89)	CACHED	0	2026-01-12 18:57:58.678	6.9s	6.4s	105.4%	364.6 MB	1.1 GB	40.2 MB	1.7 MB
+141	bb/5e8b82	797128	calling_pipeline:medakaInference_consensus (99)	CACHED	0	2026-01-12 18:58:12.962	6.5s	6.1s	106.4%	382.3 MB	1 GB	40.2 MB	1.7 MB
+133	9e/aaf104	793501	calling_pipeline:medakaInference_consensus (91)	CACHED	0	2026-01-12 18:58:05.588	6.4s	6s	105.2%	368.5 MB	1.2 GB	40.2 MB	1.7 MB
+130	a1/d471d7	790855	calling_pipeline:medakaInference_consensus (88)	CACHED	0	2026-01-12 18:57:59.926	6.2s	5.7s	100.5%	347.4 MB	1.1 GB	40.2 MB	1.6 MB
+134	b0/7d55d7	793733	calling_pipeline:medakaInference_consensus (92)	CACHED	0	2026-01-12 18:58:05.989	7.7s	7.2s	122.0%	458.9 MB	1.2 GB	40.2 MB	2 MB
+140	b9/f370a2	793926	calling_pipeline:medakaInference_consensus (98)	CACHED	0	2026-01-12 18:58:06.107	6.8s	6.3s	110.1%	384.2 MB	1 GB	40.2 MB	1.7 MB
+142	f8/12cac7	797873	calling_pipeline:medakaInference_consensus (100)	CACHED	0	2026-01-12 18:58:14.196	6.9s	6.5s	104.0%	364.1 MB	1.1 GB	40.2 MB	1.6 MB
+129	23/8059b8	790419	calling_pipeline:medakaInference_consensus (87)	CACHED	0	2026-01-12 18:57:59.277	6.7s	6.2s	106.3%	382.9 MB	1.1 GB	40.2 MB	1.7 MB
+138	db/63fd26	796572	calling_pipeline:medakaInference_consensus (96)	CACHED	0	2026-01-12 18:58:12.017	6s	5.5s	107.2%	362.6 MB	1.1 GB	40.2 MB	1.7 MB
+143	40/420ad4	796303	calling_pipeline:medakaInference_consensus (101)	CACHED	0	2026-01-12 18:58:11.413	8.5s	7.8s	123.9%	458.4 MB	1.2 GB	40.2 MB	2 MB
+145	b7/8a0abd	792679	calling_pipeline:medakaInference_consensus (103)	CACHED	0	2026-01-12 18:58:04.432	7s	6.3s	108.2%	392 MB	1.1 GB	40.2 MB	1.7 MB
+144	80/696b4c	792695	calling_pipeline:medakaInference_consensus (102)	CACHED	0	2026-01-12 18:58:04.456	6.4s	5.9s	112.6%	385.3 MB	1.1 GB	40.2 MB	1.7 MB
+146	87/645ec6	793780	calling_pipeline:medakaInference_consensus (104)	CACHED	0	2026-01-12 18:58:06.024	8.2s	7.6s	124.8%	479.6 MB	1.2 GB	40.4 MB	2 MB
+150	b2/1fa807	801666	calling_pipeline:medakaInference_consensus (108)	CACHED	0	2026-01-12 18:58:21.752	7.2s	6.7s	110.2%	390 MB	1.2 GB	40.2 MB	1.7 MB
+151	75/1b94e0	800005	calling_pipeline:medakaInference_consensus (109)	CACHED	0	2026-01-12 18:58:18.917	8.1s	7.5s	129.1%	479.9 MB	1.2 GB	40.3 MB	2 MB
+149	a9/3030d9	799506	calling_pipeline:medakaInference_consensus (107)	CACHED	0	2026-01-12 18:58:18.059	6.6s	6.1s	111.1%	394.8 MB	1.1 GB	40.2 MB	1.7 MB
+159	28/4c0250	805101	calling_pipeline:medakaInference_consensus (117)	CACHED	0	2026-01-12 18:58:28.957	8.2s	7.7s	121.4%	478 MB	1.2 GB	40.3 MB	2 MB
+148	f1/8632cb	793260	calling_pipeline:medakaInference_consensus (106)	CACHED	0	2026-01-12 18:58:05.238	6.9s	6.4s	110.3%	379.8 MB	1.2 GB	40.2 MB	1.7 MB
+147	46/4929d6	793138	calling_pipeline:medakaInference_consensus (105)	CACHED	0	2026-01-12 18:58:05.062	8.7s	8.2s	129.1%	536.8 MB	1.3 GB	40.3 MB	2.2 MB
+154	ea/52caae	799943	calling_pipeline:medakaInference_consensus (112)	CACHED	0	2026-01-12 18:58:18.777	7.3s	6.8s	122.3%	458.2 MB	1.2 GB	40.3 MB	2 MB
+160	80/7755bf	801289	calling_pipeline:medakaInference_consensus (118)	CACHED	0	2026-01-12 18:58:21.153	6.5s	6s	106.1%	381.5 MB	1.1 GB	40.2 MB	1.7 MB
+164	bd/1ea4cb	806220	calling_pipeline:medakaInference_consensus (122)	CACHED	0	2026-01-12 18:58:31.785	7.7s	6.9s	120.0%	459.6 MB	1.2 GB	40.3 MB	2 MB
+155	c0/5fecd1	803935	calling_pipeline:medakaInference_consensus (113)	CACHED	0	2026-01-12 18:58:26.975	8s	7.5s	124.9%	478.6 MB	1.2 GB	40.3 MB	2 MB
+161	5a/46c959	804093	calling_pipeline:medakaInference_consensus (119)	CACHED	0	2026-01-12 18:58:27.129	6.9s	6.4s	114.7%	390.1 MB	1.1 GB	40.2 MB	1.7 MB
+162	9c/4b61f6	804587	calling_pipeline:medakaInference_consensus (120)	CACHED	0	2026-01-12 18:58:27.701	6.3s	5.8s	105.3%	350.4 MB	1.1 GB	40.2 MB	1.6 MB
+152	1c/658d9b	800357	calling_pipeline:medakaInference_consensus (110)	CACHED	0	2026-01-12 18:58:19.519	7.1s	6.6s	112.4%	391.3 MB	1.1 GB	40.2 MB	1.8 MB
+158	05/c89ba6	803939	calling_pipeline:medakaInference_consensus (116)	CACHED	0	2026-01-12 18:58:26.988	6.4s	5.8s	107.2%	372.5 MB	1.2 GB	40.2 MB	1.7 MB
+157	cd/ffcc32	800616	calling_pipeline:medakaInference_consensus (115)	CACHED	0	2026-01-12 18:58:19.917	7.2s	6.7s	111.2%	390 MB	1.1 GB	40.2 MB	1.7 MB
+156	17/04622e	802772	calling_pipeline:medakaInference_consensus (114)	CACHED	0	2026-01-12 18:58:24.716	7.1s	6.5s	109.8%	391.6 MB	1.2 GB	40.2 MB	1.7 MB
+153	9a/9cfe84	800748	calling_pipeline:medakaInference_consensus (111)	CACHED	0	2026-01-12 18:58:20.187	6.8s	6.3s	104.3%	367.6 MB	1.1 GB	40.2 MB	1.7 MB
+165	1a/57a808	806930	calling_pipeline:medakaInference_consensus (123)	CACHED	0	2026-01-12 18:58:33.389	6.3s	5.7s	104.8%	355.2 MB	1.1 GB	40.2 MB	1.7 MB
+167	56/91a55c	807381	calling_pipeline:medakaInference_consensus (125)	CACHED	0	2026-01-12 18:58:34.074	6.9s	6.3s	108.4%	371.9 MB	1.1 GB	40.2 MB	1.7 MB
+166	e9/8dc13e	806876	calling_pipeline:medakaInference_consensus (124)	CACHED	0	2026-01-12 18:58:33.317	8.4s	7.9s	130.0%	523.7 MB	1.2 GB	40.3 MB	2.2 MB
+168	c5/8f06fe	803739	calling_pipeline:medakaInference_consensus (126)	CACHED	0	2026-01-12 18:58:26.651	6.7s	6.2s	109.6%	383.8 MB	1.1 GB	40.2 MB	1.7 MB
+176	44/d72db7	810663	calling_pipeline:medakaInference_consensus (134)	CACHED	0	2026-01-12 18:58:40.794	6.8s	6.3s	109.1%	379.8 MB	1.2 GB	40.2 MB	1.7 MB
+170	86/91045f	810065	calling_pipeline:medakaInference_consensus (128)	CACHED	0	2026-01-12 18:58:39.710	6.7s	6s	109.4%	384 MB	1.2 GB	40.2 MB	1.7 MB
+169	ec/695a87	807353	calling_pipeline:medakaInference_consensus (127)	CACHED	0	2026-01-12 18:58:34.025	6.8s	6.2s	105.3%	357.6 MB	1.1 GB	40.2 MB	1.6 MB
+174	41/e4008e	807590	calling_pipeline:medakaInference_consensus (132)	CACHED	0	2026-01-12 18:58:34.285	6.5s	6.1s	99.7%	360.3 MB	1.1 GB	40.2 MB	1.6 MB
+175	be/264c58	810682	calling_pipeline:medakaInference_consensus (133)	CACHED	0	2026-01-12 18:58:40.826	6.5s	5.8s	103.2%	353.6 MB	1 GB	40.2 MB	1.7 MB
+163	7f/424f9e	803395	calling_pipeline:medakaInference_consensus (121)	CACHED	0	2026-01-12 18:58:26.138	8.1s	7.6s	121.9%	478.6 MB	1.2 GB	40.2 MB	2 MB
+172	ec/3f0120	811378	calling_pipeline:medakaInference_consensus (130)	CACHED	0	2026-01-12 18:58:41.741	6.4s	5.9s	104.0%	368.6 MB	1.1 GB	40.2 MB	1.7 MB
+178	b6/5af888	810783	calling_pipeline:medakaInference_consensus (136)	CACHED	0	2026-01-12 18:58:40.946	6.8s	6.3s	107.1%	369.6 MB	1.1 GB	40.2 MB	1.7 MB
+173	d2/165698	810008	calling_pipeline:medakaInference_consensus (131)	CACHED	0	2026-01-12 18:58:39.500	6.5s	5.8s	111.0%	373.5 MB	1.1 GB	40.2 MB	1.7 MB
+171	09/fbbefb	808954	calling_pipeline:medakaInference_consensus (129)	CACHED	0	2026-01-12 18:58:37.136	6.5s	5.9s	103.3%	351.8 MB	1.1 GB	40.2 MB	1.6 MB
+177	f7/87b305	808059	calling_pipeline:medakaInference_consensus (135)	CACHED	0	2026-01-12 18:58:35.014	8.4s	7.9s	126.0%	512.5 MB	1.2 GB	40.3 MB	2.2 MB
+179	b9/02bfc0	814250	calling_pipeline:medakaInference_consensus (137)	CACHED	0	2026-01-12 18:58:47.789	8.2s	7.7s	125.5%	458.6 MB	1.2 GB	40.3 MB	2 MB
+181	c4/f6c8d1	813495	calling_pipeline:medakaInference_consensus (139)	CACHED	0	2026-01-12 18:58:46.437	8.8s	8.2s	132.0%	539 MB	1.3 GB	40.4 MB	2.2 MB
+180	2e/c8c739	813235	calling_pipeline:medakaInference_consensus (138)	CACHED	0	2026-01-12 18:58:46.016	6.5s	5.9s	105.2%	367.9 MB	1.1 GB	40.2 MB	1.7 MB
+184	c8/b64652	812016	calling_pipeline:medakaInference_consensus (142)	CACHED	0	2026-01-12 18:58:43.425	7.6s	7.2s	123.7%	479.9 MB	1.3 GB	40.3 MB	2 MB
+183	62/0f978f	812090	calling_pipeline:medakaInference_consensus (141)	CACHED	0	2026-01-12 18:58:43.613	6.7s	6.1s	108.9%	376.1 MB	1.2 GB	40.2 MB	1.7 MB
+182	46/60d285	815529	calling_pipeline:medakaInference_consensus (140)	CACHED	0	2026-01-12 18:58:50.292	6.9s	6.5s	113.7%	387.4 MB	1.2 GB	40.2 MB	1.7 MB
+185	39/dd18f4	814127	calling_pipeline:medakaInference_consensus (143)	CACHED	0	2026-01-12 18:58:47.617	7.3s	6.8s	115.0%	389.6 MB	1.2 GB	40.2 MB	1.7 MB
+190	0e/683154	815901	calling_pipeline:medakaInference_consensus (148)	CACHED	0	2026-01-12 18:58:51.070	6.6s	6.1s	105.6%	378 MB	1.2 GB	40.2 MB	1.7 MB
+188	0e/d9d5e4	817558	calling_pipeline:medakaInference_consensus (146)	CACHED	0	2026-01-12 18:58:54.784	9s	8.5s	130.1%	478.2 MB	1.3 GB	40.3 MB	2 MB
+189	24/38c7ac	816509	calling_pipeline:medakaInference_consensus (147)	CACHED	0	2026-01-12 18:58:52.481	6.4s	5.8s	105.2%	358.5 MB	1.1 GB	40.2 MB	1.7 MB
+191	ec/a5cdd1	817671	calling_pipeline:medakaInference_consensus (149)	CACHED	0	2026-01-12 18:58:54.907	8.8s	8s	109.8%	370 MB	1.1 GB	40.2 MB	1.7 MB
+197	01/62e8d3	819276	calling_pipeline:medakaInference_consensus (155)	CACHED	0	2026-01-12 18:58:57.708	7.3s	6.9s	103.3%	344.3 MB	1.1 GB	40.2 MB	1.7 MB
+187	b3/1aa328	814591	calling_pipeline:medakaInference_consensus (145)	CACHED	0	2026-01-12 18:58:48.141	6.6s	6s	103.6%	357.1 MB	1.1 GB	40.2 MB	1.6 MB
+196	04/8d45f4	821925	calling_pipeline:medakaInference_consensus (154)	CACHED	0	2026-01-12 18:59:03.844	6.4s	5.8s	106.1%	351.5 MB	1.1 GB	40.2 MB	1.6 MB
+195	0b/de2290	817949	calling_pipeline:medakaInference_consensus (153)	CACHED	0	2026-01-12 18:58:55.246	7.8s	7.1s	100.8%	359.8 MB	1.1 GB	40.2 MB	1.6 MB
+192	49/f5c761	817282	calling_pipeline:medakaInference_consensus (150)	CACHED	0	2026-01-12 18:58:54.008	7.4s	6.5s	105.7%	372.5 MB	1.2 GB	40.2 MB	1.7 MB
+193	f1/d46954	821927	calling_pipeline:medakaInference_consensus (151)	CACHED	0	2026-01-12 18:59:03.856	6.4s	5.7s	105.7%	346.5 MB	1.1 GB	40.2 MB	1.7 MB
+201	2d/26bcc5	818333	calling_pipeline:medakaInference_consensus (159)	CACHED	0	2026-01-12 18:58:56.024	7.8s	7.3s	109.4%	379 MB	1.2 GB	40.2 MB	1.7 MB
+186	18/c9af67	813933	calling_pipeline:medakaInference_consensus (144)	CACHED	0	2026-01-12 18:58:47.308	6.7s	6.1s	111.9%	385.1 MB	1.1 GB	40.2 MB	1.7 MB
+203	53/961447	825220	calling_pipeline:medakaInference_consensus (161)	CACHED	0	2026-01-12 18:59:10.309	8.7s	7.6s	113.9%	391.3 MB	1.1 GB	40.2 MB	1.7 MB
+194	a8/826ba0	818909	calling_pipeline:medakaInference_consensus (152)	CACHED	0	2026-01-12 18:58:57.223	8.2s	7.6s	104.8%	367.9 MB	1.2 GB	40.2 MB	1.7 MB
+202	9e/5d7be3	824212	calling_pipeline:medakaInference_consensus (160)	CACHED	0	2026-01-12 18:59:08.277	7.6s	6.8s	124.0%	458.9 MB	1.2 GB	40.2 MB	2 MB
+205	54/1973ce	821457	calling_pipeline:medakaInference_consensus (163)	CACHED	0	2026-01-12 18:59:03.058	6.9s	6.2s	105.1%	367.1 MB	1.2 GB	40.2 MB	1.7 MB
+206	02/72780b	824915	calling_pipeline:medakaInference_consensus (164)	CACHED	0	2026-01-12 18:59:09.940	8.6s	7.6s	125.7%	479.8 MB	1.3 GB	40.3 MB	2 MB
+204	30/5cc5db	823436	calling_pipeline:medakaInference_consensus (162)	CACHED	0	2026-01-12 18:59:06.716	7.5s	7s	123.6%	480.4 MB	1.3 GB	40.2 MB	2 MB
+198	df/4c20f7	819780	calling_pipeline:medakaInference_consensus (156)	CACHED	0	2026-01-12 18:58:58.919	7.8s	7.3s	106.5%	386.8 MB	1.2 GB	40.2 MB	1.7 MB
+200	ca/82197b	821861	calling_pipeline:medakaInference_consensus (158)	CACHED	0	2026-01-12 18:59:03.726	8s	7.2s	123.5%	480.2 MB	1.2 GB	40.3 MB	2 MB
+208	bd/4b555e	822768	calling_pipeline:medakaInference_consensus (166)	CACHED	0	2026-01-12 18:59:05.409	6.6s	6.1s	112.0%	391.6 MB	1.2 GB	40.2 MB	1.7 MB
+207	0b/33055f	829003	calling_pipeline:medakaInference_consensus (165)	CACHED	0	2026-01-12 18:59:18.997	8.1s	7.4s	121.3%	479.9 MB	1.2 GB	40.3 MB	2 MB
+199	10/589d8e	820800	calling_pipeline:medakaInference_consensus (157)	CACHED	0	2026-01-12 18:59:01.423	6.8s	6s	111.5%	376.7 MB	1.2 GB	40.2 MB	1.7 MB
+209	6a/8334b6	825956	calling_pipeline:medakaInference_consensus (167)	CACHED	0	2026-01-12 18:59:11.717	7.8s	7.1s	106.2%	372.2 MB	1.1 GB	40.2 MB	1.7 MB
+211	b9/be79c0	822571	calling_pipeline:medakaInference_consensus (169)	CACHED	0	2026-01-12 18:59:05.058	6.8s	6.2s	116.5%	408 MB	1.2 GB	40.3 MB	1.8 MB
+210	ca/398aa6	825233	calling_pipeline:medakaInference_consensus (168)	CACHED	0	2026-01-12 18:59:10.320	9.5s	8.9s	132.9%	536.9 MB	1.3 GB	40.3 MB	2.2 MB
+214	f3/f631b8	826028	calling_pipeline:medakaInference_consensus (172)	CACHED	0	2026-01-12 18:59:11.843	8s	7.4s	115.7%	407.5 MB	1.2 GB	40.3 MB	1.8 MB
+212	78/0afdc9	829651	calling_pipeline:medakaInference_consensus (170)	CACHED	0	2026-01-12 18:59:19.829	7.5s	6.8s	112.0%	383.8 MB	1.1 GB	40.2 MB	1.8 MB
+221	8c/096e75	830776	calling_pipeline:medakaInference_consensus (179)	CACHED	0	2026-01-12 18:59:21.959	7.7s	7s	112.9%	403.7 MB	1.2 GB	40.2 MB	1.8 MB
+213	57/d6bf6c	829658	calling_pipeline:medakaInference_consensus (171)	CACHED	0	2026-01-12 18:59:19.842	8.2s	7s	122.1%	460.1 MB	1.2 GB	40.3 MB	2 MB
+219	d5/faad4f	827922	calling_pipeline:medakaInference_consensus (177)	CACHED	0	2026-01-12 18:59:15.894	8.8s	7.7s	118.4%	479.7 MB	1.2 GB	40.3 MB	2 MB
+216	11/41c534	829479	calling_pipeline:medakaInference_consensus (174)	CACHED	0	2026-01-12 18:59:19.511	9s	8.5s	123.0%	479.1 MB	1.2 GB	40.3 MB	2 MB
+215	1d/d461da	827083	calling_pipeline:medakaInference_consensus (173)	CACHED	0	2026-01-12 18:59:14.206	7.7s	7.2s	109.1%	375.5 MB	1.1 GB	40.2 MB	1.7 MB
+229	c4/dd5d5f	832968	calling_pipeline:medakaInference_consensus (187)	CACHED	0	2026-01-12 18:59:27.328	8.6s	7.6s	114.0%	409.2 MB	1.1 GB	40.3 MB	1.8 MB
+225	55/92eca1	831796	calling_pipeline:medakaInference_consensus (183)	CACHED	0	2026-01-12 18:59:24.703	7.9s	7.5s	124.5%	536.9 MB	1.3 GB	40.3 MB	2.2 MB
+220	03/2d6e5a	833577	calling_pipeline:medakaInference_consensus (178)	CACHED	0	2026-01-12 18:59:28.528	8.6s	8s	120.4%	459.2 MB	1.2 GB	40.3 MB	2 MB
+226	6c/b58b0a	840246	calling_pipeline:medakaInference_consensus (184)	CACHED	0	2026-01-12 18:59:43.148	6.3s	5.5s	110.9%	365.1 MB	1.2 GB	40.2 MB	1.7 MB
+224	35/323617	826252	calling_pipeline:medakaInference_consensus (182)	CACHED	0	2026-01-12 18:59:12.046	9.4s	8.9s	121.4%	537.6 MB	1.3 GB	40.3 MB	2.2 MB
+218	37/483e61	832879	calling_pipeline:medakaInference_consensus (176)	CACHED	0	2026-01-12 18:59:27.084	8.5s	7.6s	111.8%	412.2 MB	1.2 GB	40.3 MB	1.8 MB
+232	65/c6cc2b	838619	calling_pipeline:medakaInference_consensus (190)	CACHED	0	2026-01-12 18:59:39.087	6.9s	6.2s	107.9%	364 MB	1.1 GB	40.2 MB	1.6 MB
+235	fe/3aed04	841138	calling_pipeline:medakaInference_consensus (193)	CACHED	0	2026-01-12 18:59:44.902	8.2s	7.6s	123.0%	478.9 MB	1.2 GB	40.3 MB	2 MB
+223	97/c258bb	832294	calling_pipeline:medakaInference_consensus (181)	CACHED	0	2026-01-12 18:59:25.765	8.8s	7.8s	120.7%	480.1 MB	1.2 GB	40.3 MB	2 MB
+233	f9/417d55	833307	calling_pipeline:medakaInference_consensus (191)	CACHED	0	2026-01-12 18:59:28.020	8s	7.3s	125.5%	533.9 MB	1.2 GB	40.3 MB	2.2 MB
+239	70/cd3433	836832	calling_pipeline:medakaInference_consensus (197)	CACHED	0	2026-01-12 18:59:36.012	8.9s	7.9s	124.9%	524.2 MB	1.2 GB	40.3 MB	2.2 MB
+222	02/8452ae	830382	calling_pipeline:medakaInference_consensus (180)	CACHED	0	2026-01-12 18:59:21.432	7.1s	6.6s	109.2%	384.3 MB	1.1 GB	40.2 MB	1.7 MB
+228	ba/db005c	835457	calling_pipeline:medakaInference_consensus (186)	CACHED	0	2026-01-12 18:59:32.628	8s	7.3s	115.8%	412.3 MB	1.1 GB	40.2 MB	1.8 MB
+217	92/b7ccbc	828933	calling_pipeline:medakaInference_consensus (175)	CACHED	0	2026-01-12 18:59:18.560	7.2s	6.4s	113.6%	403.5 MB	1.2 GB	40.2 MB	1.8 MB
+241	02/db9f65	840706	calling_pipeline:medakaInference_consensus (199)	CACHED	0	2026-01-12 18:59:43.953	7.9s	7.2s	122.7%	479.2 MB	1.3 GB	40.3 MB	2 MB
+237	58/124444	839196	calling_pipeline:medakaInference_consensus (195)	CACHED	0	2026-01-12 18:59:40.623	6.7s	6.2s	106.2%	386.8 MB	1.2 GB	40.4 MB	1.7 MB
+244	4b/26104f	836808	calling_pipeline:medakaInference_consensus (202)	CACHED	0	2026-01-12 18:59:35.981	8.9s	7.9s	123.4%	478.8 MB	1.2 GB	40.3 MB	2 MB
+227	03/12f29d	836213	calling_pipeline:medakaInference_consensus (185)	CACHED	0	2026-01-12 18:59:34.554	8.6s	7.5s	125.6%	479.9 MB	1.2 GB	40.3 MB	2 MB
+230	a6/5c96c7	833601	calling_pipeline:medakaInference_consensus (188)	CACHED	0	2026-01-12 18:59:28.560	9.3s	8.6s	123.5%	477.9 MB	1.3 GB	40.2 MB	2 MB
+245	d8/608ecd	841774	calling_pipeline:medakaInference_consensus (203)	CACHED	0	2026-01-12 18:59:45.955	7.7s	7.1s	128.1%	522.2 MB	1.2 GB	40.3 MB	2.2 MB
+238	70/e4e2e3	841903	calling_pipeline:medakaInference_consensus (196)	CACHED	0	2026-01-12 18:59:46.231	8.6s	7.8s	125.4%	577.7 MB	1.3 GB	40.3 MB	2.4 MB
+240	01/6f7959	842449	calling_pipeline:medakaInference_consensus (198)	CACHED	0	2026-01-12 18:59:47.335	8s	7.5s	127.0%	632 MB	1.3 GB	40.4 MB	2.7 MB
+246	fb/e365e7	836613	calling_pipeline:medakaInference_consensus (204)	CACHED	0	2026-01-12 18:59:35.615	8.3s	7.7s	128.4%	537.1 MB	1.3 GB	40.3 MB	2.2 MB
+243	0c/6b6377	841150	calling_pipeline:medakaInference_consensus (201)	CACHED	0	2026-01-12 18:59:44.940	6.8s	5.8s	100.0%	340.1 MB	1.1 GB	40.2 MB	1.6 MB
+247	dd/6ab22e	844964	calling_pipeline:medakaInference_consensus (205)	CACHED	0	2026-01-12 18:59:53.147	9s	8.4s	121.2%	479.9 MB	1.3 GB	40.3 MB	2 MB
+234	a6/05491b	837440	calling_pipeline:medakaInference_consensus (192)	CACHED	0	2026-01-12 18:59:37.149	8.7s	8.1s	127.3%	519.2 MB	1.2 GB	40.3 MB	2.2 MB
+242	f4/f0d229	843326	calling_pipeline:medakaInference_consensus (200)	CACHED	0	2026-01-12 18:59:49.467	6.7s	6.2s	115.3%	410.5 MB	1.1 GB	40.3 MB	1.8 MB
+231	8b/7a1790	834182	calling_pipeline:medakaInference_consensus (189)	CACHED	0	2026-01-12 18:59:29.624	9.4s	8.8s	125.3%	580.9 MB	1.3 GB	40.4 MB	2.4 MB
+253	c8/176720	845103	calling_pipeline:medakaInference_consensus (211)	CACHED	0	2026-01-12 18:59:53.449	8.7s	8.1s	123.9%	478.1 MB	1.2 GB	40.3 MB	2 MB
+250	e6/ede60d	846339	calling_pipeline:medakaInference_consensus (208)	CACHED	0	2026-01-12 18:59:55.355	6.8s	6.3s	108.2%	376.2 MB	1.1 GB	40.2 MB	1.7 MB
+251	fc/3f33e2	845314	calling_pipeline:medakaInference_consensus (209)	CACHED	0	2026-01-12 18:59:53.672	9.1s	8.6s	124.4%	594.3 MB	1.3 GB	40.4 MB	2.4 MB
+236	76/d6a36e	838034	calling_pipeline:medakaInference_consensus (194)	CACHED	0	2026-01-12 18:59:37.897	8.3s	7.5s	121.7%	478 MB	1.2 GB	40.3 MB	2 MB
+249	02/37db61	844407	calling_pipeline:medakaInference_consensus (207)	CACHED	0	2026-01-12 18:59:51.913	9.3s	8.5s	123.3%	599 MB	1.3 GB	40.4 MB	2.4 MB
+248	a5/04d4ce	844295	calling_pipeline:medakaInference_consensus (206)	CACHED	0	2026-01-12 18:59:51.712	8.8s	8s	126.7%	534 MB	1.2 GB	40.3 MB	2.2 MB
+252	91/13e7f7	841663	calling_pipeline:medakaInference_consensus (210)	CACHED	0	2026-01-12 18:59:45.828	7.6s	7.1s	131.1%	536 MB	1.3 GB	40.3 MB	2.2 MB
+257	cb/aa01d1	849348	calling_pipeline:medakaInference_consensus (215)	CACHED	0	2026-01-12 19:00:02.207	8.6s	8.1s	124.3%	459.1 MB	1.2 GB	40.3 MB	2 MB
+263	75/fee4dd	853308	calling_pipeline:medakaInference_consensus (221)	CACHED	0	2026-01-12 19:00:10.851	9.9s	9.2s	125.7%	479.1 MB	1.3 GB	40.5 MB	2 MB
+254	63/d250e7	846757	calling_pipeline:medakaInference_consensus (212)	CACHED	0	2026-01-12 18:59:56.148	6.9s	6.4s	105.0%	376.3 MB	1.2 GB	40.2 MB	1.7 MB
+256	ad/98877f	848812	calling_pipeline:medakaInference_consensus (214)	CACHED	0	2026-01-12 19:00:01.189	9s	8.4s	120.4%	479.1 MB	1.3 GB	40.3 MB	2 MB
+255	f0/cd490f	848301	calling_pipeline:medakaInference_consensus (213)	CACHED	0	2026-01-12 19:00:00.499	7.9s	7.1s	108.5%	374.2 MB	1.2 GB	40.2 MB	1.7 MB
+259	e7/07ee31	849965	calling_pipeline:medakaInference_consensus (217)	CACHED	0	2026-01-12 19:00:03.067	9s	8.4s	126.3%	534.1 MB	1.2 GB	40.3 MB	2.2 MB
+265	44/33c68a	853600	calling_pipeline:medakaInference_consensus (223)	CACHED	0	2026-01-12 19:00:11.326	8.3s	7.7s	125.5%	477.9 MB	1.2 GB	40.2 MB	2 MB
+261	9c/afe34f	849313	calling_pipeline:medakaInference_consensus (219)	CACHED	0	2026-01-12 19:00:02.182	9.2s	8.6s	125.7%	590.6 MB	1.3 GB	40.4 MB	2.4 MB
+271	3b/f7c410	853948	calling_pipeline:medakaInference_consensus (229)	CACHED	0	2026-01-12 19:00:11.784	10s	9.2s	117.2%	479.3 MB	1.2 GB	40.3 MB	2 MB
+260	12/b62dda	849326	calling_pipeline:medakaInference_consensus (218)	CACHED	0	2026-01-12 19:00:02.193	9.7s	9.1s	125.2%	520.6 MB	1.3 GB	40.4 MB	2.2 MB
+268	59/c8b0ca	855867	calling_pipeline:medakaInference_consensus (226)	CACHED	0	2026-01-12 19:00:15.868	9.9s	9.3s	117.4%	479.9 MB	1.3 GB	40.3 MB	2 MB
+264	83/b136fc	849858	calling_pipeline:medakaInference_consensus (222)	CACHED	0	2026-01-12 19:00:02.785	8.5s	8.1s	121.7%	460.4 MB	1.2 GB	40.3 MB	2 MB
+272	0c/455e56	862166	calling_pipeline:medakaInference_consensus (230)	CACHED	0	2026-01-12 19:00:30.763	10.3s	9.6s	128.5%	533.3 MB	1.2 GB	40.3 MB	2.2 MB
+262	56/d9e5c0	854106	calling_pipeline:medakaInference_consensus (220)	CACHED	0	2026-01-12 19:00:11.863	9.8s	9.1s	128.2%	588.9 MB	1.4 GB	40.3 MB	2.4 MB
+266	a1/559aa1	850519	calling_pipeline:medakaInference_consensus (224)	CACHED	0	2026-01-12 19:00:04.071	7.7s	7s	102.4%	364.5 MB	1.2 GB	40.2 MB	1.7 MB
+275	e1/f730d2	854264	calling_pipeline:medakaInference_consensus (233)	CACHED	0	2026-01-12 19:00:12.063	7.5s	6.9s	113.8%	403.2 MB	1.1 GB	40.2 MB	1.8 MB
+279	56/aa6488	862277	calling_pipeline:medakaInference_consensus (237)	CACHED	0	2026-01-12 19:00:30.943	9.7s	9s	130.7%	533.4 MB	1.3 GB	40.4 MB	2.2 MB
+273	57/a670f9	857449	calling_pipeline:medakaInference_consensus (231)	CACHED	0	2026-01-12 19:00:19.660	7.8s	7s	120.9%	459.7 MB	1.2 GB	40.3 MB	2 MB
+258	0c/0fdd5d	845861	calling_pipeline:medakaInference_consensus (216)	CACHED	0	2026-01-12 18:59:54.795	9.3s	8.6s	122.2%	531 MB	1.2 GB	40.3 MB	2.2 MB
+283	44/8e9153	856913	calling_pipeline:medakaInference_consensus (241)	CACHED	0	2026-01-12 19:00:18.979	10.9s	10.1s	125.7%	584.2 MB	1.4 GB	40.3 MB	2.4 MB
+267	2a/c3ee1c	852991	calling_pipeline:medakaInference_consensus (225)	CACHED	0	2026-01-12 19:00:10.219	8.7s	8.1s	130.4%	639.4 MB	1.4 GB	40.4 MB	2.6 MB
+269	cd/688ec2	853698	calling_pipeline:medakaInference_consensus (227)	CACHED	0	2026-01-12 19:00:11.370	8.7s	7.9s	126.5%	535.2 MB	1.3 GB	40.3 MB	2.2 MB
+280	3a/bc1374	862034	calling_pipeline:medakaInference_consensus (238)	CACHED	0	2026-01-12 19:00:30.561	9.6s	8.7s	118.7%	479.5 MB	1.3 GB	40.3 MB	2 MB
+282	d0/a1b3ac	863670	calling_pipeline:medakaInference_consensus (240)	CACHED	0	2026-01-12 19:00:34.337	9s	8.3s	118.3%	478.4 MB	1.3 GB	40.2 MB	2 MB
+277	53/4a477f	858422	calling_pipeline:medakaInference_consensus (235)	CACHED	0	2026-01-12 19:00:21.748	9s	8s	121.8%	477.9 MB	1.3 GB	40.2 MB	2 MB
+274	99/0822f3	857648	calling_pipeline:medakaInference_consensus (232)	CACHED	0	2026-01-12 19:00:20.133	10.4s	9.7s	116.4%	458.8 MB	1.2 GB	40.3 MB	2 MB
+278	92/561808	859919	calling_pipeline:medakaInference_consensus (236)	CACHED	0	2026-01-12 19:00:25.776	8.5s	7.8s	120.4%	479.9 MB	1.3 GB	40.3 MB	2 MB
+284	67/c39fa8	861488	calling_pipeline:medakaInference_consensus (242)	CACHED	0	2026-01-12 19:00:29.896	10.2s	9.3s	128.1%	584.1 MB	1.4 GB	40.4 MB	2.4 MB
+276	4b/c364a4	858420	calling_pipeline:medakaInference_consensus (234)	CACHED	0	2026-01-12 19:00:21.733	8.8s	7.6s	122.2%	479.6 MB	1.2 GB	40.3 MB	2 MB
+281	c7/53a9cb	860511	calling_pipeline:medakaInference_consensus (239)	CACHED	0	2026-01-12 19:00:27.473	8.3s	7.5s	124.0%	479.4 MB	1.2 GB	40.3 MB	2 MB
+285	d0/301794	857354	calling_pipeline:medakaInference_consensus (243)	CACHED	0	2026-01-12 19:00:19.568	10.3s	9.7s	120.4%	535.2 MB	1.3 GB	40.4 MB	2.2 MB
+270	3b/0276a3	852196	calling_pipeline:medakaInference_consensus (228)	CACHED	0	2026-01-12 19:00:08.376	7.5s	6.9s	122.8%	460.3 MB	1.2 GB	40.3 MB	2 MB
+291	3d/a89e6a	865620	calling_pipeline:medakaInference_consensus (249)	CACHED	0	2026-01-12 19:00:39.143	7.5s	6.7s	115.6%	402 MB	1.1 GB	40.3 MB	1.8 MB
+286	ed/18f6c0	862029	calling_pipeline:medakaInference_consensus (244)	CACHED	0	2026-01-12 19:00:30.551	9.5s	8.6s	125.6%	533.7 MB	1.2 GB	40.3 MB	2.2 MB
+287	49/09b973	861452	calling_pipeline:medakaInference_consensus (245)	CACHED	0	2026-01-12 19:00:29.848	9.3s	8.1s	125.3%	562.1 MB	1.3 GB	40.4 MB	2.4 MB
+292	9c/e7b7ba	867866	calling_pipeline:medakaInference_consensus (250)	CACHED	0	2026-01-12 19:00:43.357	9.7s	9s	135.4%	800.8 MB	1.5 GB	40.7 MB	3.1 MB
+290	e1/23c227	866165	calling_pipeline:medakaInference_consensus (248)	CACHED	0	2026-01-12 19:00:40.138	8.3s	7.6s	127.3%	533.7 MB	1.3 GB	40.3 MB	2.2 MB
+293	fe/0fe096	866103	calling_pipeline:medakaInference_consensus (251)	CACHED	0	2026-01-12 19:00:40.073	8.5s	7.9s	125.8%	459.7 MB	1.2 GB	40.3 MB	2 MB
+289	a9/5bb9a7	858043	calling_pipeline:medakaInference_consensus (247)	CACHED	0	2026-01-12 19:00:20.778	10.2s	9.3s	122.8%	534.4 MB	1.2 GB	40.3 MB	2.2 MB
+288	d0/bb41dd	866161	calling_pipeline:medakaInference_consensus (246)	CACHED	0	2026-01-12 19:00:40.128	7.2s	6.2s	112.6%	381 MB	1.1 GB	40.2 MB	1.7 MB
+300	6f/5a983f	869243	calling_pipeline:medakaInference_consensus (258)	CACHED	0	2026-01-12 19:00:46.610	9.4s	8.2s	129.2%	524.9 MB	1.2 GB	40.4 MB	2.2 MB
+298	51/28f62e	867618	calling_pipeline:medakaInference_consensus (256)	CACHED	0	2026-01-12 19:00:43.052	7.8s	7.2s	121.6%	477.8 MB	1.2 GB	40.3 MB	2 MB
+301	b7/d8cb05	870210	calling_pipeline:medakaInference_consensus (259)	CACHED	0	2026-01-12 19:00:48.562	9.3s	8.3s	130.8%	533.2 MB	1.2 GB	40.4 MB	2.2 MB
+302	70/45f256	870101	calling_pipeline:medakaInference_consensus (260)	CACHED	0	2026-01-12 19:00:48.405	8.5s	7.8s	127.1%	479.3 MB	1.3 GB	40.3 MB	2 MB
+304	29/40e68a	872322	calling_pipeline:medakaInference_consensus (262)	CACHED	0	2026-01-12 19:00:53.106	8.7s	8.2s	120.7%	479 MB	1.2 GB	40.3 MB	2 MB
+297	45/40e867	866503	calling_pipeline:medakaInference_consensus (255)	CACHED	0	2026-01-12 19:00:40.672	9.1s	7.9s	121.8%	460.4 MB	1.2 GB	40.3 MB	2 MB
+303	bc/9886d4	873897	calling_pipeline:medakaInference_consensus (261)	CACHED	0	2026-01-12 19:00:56.919	7.8s	7.1s	113.4%	390 MB	1.1 GB	40.2 MB	1.7 MB
+299	e6/223c8f	870454	calling_pipeline:medakaInference_consensus (257)	CACHED	0	2026-01-12 19:00:48.926	7.6s	6.9s	106.9%	388.7 MB	1.1 GB	40.2 MB	1.7 MB
+296	e0/07d2c8	864364	calling_pipeline:medakaInference_consensus (254)	CACHED	0	2026-01-12 19:00:35.751	7.3s	6.7s	118.3%	477.5 MB	1.2 GB	40.2 MB	2 MB
+295	3a/c4d872	866704	calling_pipeline:medakaInference_consensus (253)	CACHED	0	2026-01-12 19:00:41.096	7.8s	7s	119.0%	392.1 MB	1.1 GB	40.3 MB	1.8 MB
+294	3f/02e864	869558	calling_pipeline:medakaInference_consensus (252)	CACHED	0	2026-01-12 19:00:47.339	10.1s	9s	117.1%	478.4 MB	1.2 GB	40.2 MB	2 MB
+306	0c/b9de80	873313	calling_pipeline:medakaInference_consensus (264)	CACHED	0	2026-01-12 19:00:56.038	7.4s	6.7s	109.3%	377.8 MB	1.1 GB	40.2 MB	1.7 MB
+305	63/8024ea	874451	calling_pipeline:medakaInference_consensus (263)	CACHED	0	2026-01-12 19:00:57.812	6.8s	6.1s	110.7%	378.9 MB	1 GB	40.2 MB	1.7 MB
+314	e1/07a0a6	870892	calling_pipeline:medakaInference_consensus (272)	CACHED	0	2026-01-12 19:00:49.780	8s	7.2s	108.7%	388.2 MB	1.1 GB	40.2 MB	1.7 MB
+311	83/2cdc54	877903	calling_pipeline:medakaInference_consensus (269)	CACHED	0	2026-01-12 19:01:05.344	8.1s	7.4s	104.3%	367.4 MB	1.1 GB	40.2 MB	1.7 MB
+307	22/506d77	871406	calling_pipeline:medakaInference_consensus (265)	CACHED	0	2026-01-12 19:00:50.831	8.2s	7.5s	112.1%	392.2 MB	1.2 GB	40.2 MB	1.8 MB
+308	69/56f5d3	876149	calling_pipeline:medakaInference_consensus (266)	CACHED	0	2026-01-12 19:01:01.860	7s	6.4s	112.4%	396.1 MB	1.1 GB	40.3 MB	1.7 MB
+310	ed/bacf48	874506	calling_pipeline:medakaInference_consensus (268)	CACHED	0	2026-01-12 19:00:57.912	7.4s	6.8s	117.8%	413.6 MB	1.1 GB	40.2 MB	1.8 MB
+316	49/0c3221	873731	calling_pipeline:medakaInference_consensus (274)	CACHED	0	2026-01-12 19:00:56.517	9.3s	8.6s	126.7%	507.9 MB	1.2 GB	40.3 MB	2.2 MB
+312	dd/d99790	875085	calling_pipeline:medakaInference_consensus (270)	CACHED	0	2026-01-12 19:00:58.991	7.4s	6.8s	109.0%	385.4 MB	1.1 GB	40.2 MB	1.7 MB
+309	ff/bd03ea	876955	calling_pipeline:medakaInference_consensus (267)	CACHED	0	2026-01-12 19:01:03.498	9.1s	8s	116.8%	479.4 MB	1.2 GB	40.2 MB	2 MB
+313	70/38b119	874172	calling_pipeline:medakaInference_consensus (271)	CACHED	0	2026-01-12 19:00:57.439	9.1s	8.5s	130.6%	532.9 MB	1.2 GB	40.3 MB	2.2 MB
+318	02/123183	877471	calling_pipeline:medakaInference_consensus (276)	CACHED	0	2026-01-12 19:01:04.656	8.7s	8.2s	115.3%	412.3 MB	1.1 GB	40.2 MB	1.8 MB
+319	73/23b5d4	877514	calling_pipeline:medakaInference_consensus (277)	CACHED	0	2026-01-12 19:01:04.725	9.8s	8.8s	123.8%	479.4 MB	1.2 GB	40.3 MB	2 MB
+315	96/29c043	878112	calling_pipeline:medakaInference_consensus (273)	CACHED	0	2026-01-12 19:01:05.783	8.9s	8.2s	123.8%	479.1 MB	1.3 GB	40.3 MB	2 MB
+321	35/a7594b	885341	calling_pipeline:medakaInference_consensus (279)	CACHED	0	2026-01-12 19:01:22.198	8.8s	8.1s	129.5%	511.4 MB	1.3 GB	40.4 MB	2.2 MB
+324	08/992ae8	878491	calling_pipeline:medakaInference_consensus (282)	CACHED	0	2026-01-12 19:01:06.418	8.3s	7.4s	106.3%	376.9 MB	1.2 GB	40.2 MB	1.7 MB
+322	56/ca4cda	881376	calling_pipeline:medakaInference_consensus (280)	CACHED	0	2026-01-12 19:01:13.415	9.6s	8.5s	128.0%	534.4 MB	1.2 GB	40.3 MB	2.2 MB
+317	bb/b5c11b	885235	calling_pipeline:medakaInference_consensus (275)	CACHED	0	2026-01-12 19:01:22.132	7.3s	6.6s	108.2%	375.2 MB	1.2 GB	40.2 MB	1.7 MB
+320	49/372498	880995	calling_pipeline:medakaInference_consensus (278)	CACHED	0	2026-01-12 19:01:12.594	9.6s	8.6s	120.5%	479 MB	1.2 GB	40.3 MB	2 MB
+325	91/7a230c	881388	calling_pipeline:medakaInference_consensus (283)	CACHED	0	2026-01-12 19:01:13.426	7s	6.1s	108.7%	387.5 MB	1.1 GB	40.2 MB	1.7 MB
+332	50/8e1bed	879666	calling_pipeline:medakaInference_consensus (290)	CACHED	0	2026-01-12 19:01:08.874	7.5s	6.9s	106.3%	385.1 MB	1.1 GB	40.2 MB	1.7 MB
+326	65/0ab276	884603	calling_pipeline:medakaInference_consensus (284)	CACHED	0	2026-01-12 19:01:20.457	9s	8s	126.6%	536.6 MB	1.3 GB	40.3 MB	2.2 MB
+328	6f/dfd967	878647	calling_pipeline:medakaInference_consensus (286)	CACHED	0	2026-01-12 19:01:06.560	8.1s	7.3s	104.2%	376.2 MB	1.2 GB	40.2 MB	1.7 MB
+331	49/d3dba5	885142	calling_pipeline:medakaInference_consensus (289)	CACHED	0	2026-01-12 19:01:21.882	7.3s	6.3s	110.2%	372.2 MB	1.1 GB	40.2 MB	1.7 MB
+327	b8/73b50e	882093	calling_pipeline:medakaInference_consensus (285)	CACHED	0	2026-01-12 19:01:14.715	8.9s	8.3s	121.6%	479.3 MB	1.2 GB	40.4 MB	2 MB
+330	ad/94ce28	885548	calling_pipeline:medakaInference_consensus (288)	CACHED	0	2026-01-12 19:01:22.476	7.7s	6.9s	109.9%	368.7 MB	1.1 GB	40.2 MB	1.7 MB
+329	62/1a232d	888529	calling_pipeline:medakaInference_consensus (287)	CACHED	0	2026-01-12 19:01:29.239	7.7s	6.8s	110.5%	398.7 MB	1.1 GB	40.2 MB	1.8 MB
+335	41/d7e75e	882105	calling_pipeline:medakaInference_consensus (293)	CACHED	0	2026-01-12 19:01:14.725	7.7s	7s	113.7%	393.4 MB	1.1 GB	40.2 MB	1.8 MB
+323	95/7f350f	882090	calling_pipeline:medakaInference_consensus (281)	CACHED	0	2026-01-12 19:01:14.705	7.4s	6.7s	104.2%	361.8 MB	1.1 GB	40.2 MB	1.6 MB
+337	da/a4f268	886176	calling_pipeline:medakaInference_consensus (295)	CACHED	0	2026-01-12 19:01:23.339	7.2s	6.7s	111.8%	398.5 MB	1.1 GB	40.2 MB	1.8 MB
+339	7a/99021d	889229	calling_pipeline:medakaInference_consensus (297)	CACHED	0	2026-01-12 19:01:30.267	5.9s	5.5s	100.8%	352 MB	1 GB	40.2 MB	1.6 MB
+340	28/8a0755	882876	calling_pipeline:medakaInference_consensus (298)	CACHED	0	2026-01-12 19:01:16.349	7s	6.5s	111.8%	391.6 MB	1.1 GB	40.3 MB	1.7 MB
+342	39/7eee51	888632	calling_pipeline:medakaInference_consensus (300)	CACHED	0	2026-01-12 19:01:29.494	8.3s	7.5s	119.6%	480 MB	1.3 GB	40.3 MB	2 MB
+338	20/3d4b4f	888591	calling_pipeline:medakaInference_consensus (296)	CACHED	0	2026-01-12 19:01:29.438	8.3s	7.5s	123.5%	479.3 MB	1.3 GB	40.3 MB	2 MB
+333	2b/7fa159	885975	calling_pipeline:medakaInference_consensus (291)	CACHED	0	2026-01-12 19:01:22.987	7.3s	6.7s	108.2%	374.2 MB	1.1 GB	40.2 MB	1.7 MB
+343	4f/dbecac	889421	calling_pipeline:medakaInference_consensus (301)	CACHED	0	2026-01-12 19:01:30.593	7.7s	7s	112.7%	395.7 MB	1.1 GB	40.3 MB	1.8 MB
+336	5d/f08c43	886335	calling_pipeline:medakaInference_consensus (294)	CACHED	0	2026-01-12 19:01:23.669	6.9s	6.3s	107.0%	376.9 MB	1.2 GB	40.2 MB	1.7 MB
+345	7b/f14839	895700	calling_pipeline:medakaInference_consensus (303)	CACHED	0	2026-01-12 19:01:43.715	8.1s	7.6s	126.0%	478.4 MB	1.3 GB	40.3 MB	2 MB
+341	d4/f74c5b	889362	calling_pipeline:medakaInference_consensus (299)	CACHED	0	2026-01-12 19:01:30.539	8.3s	7.6s	122.1%	478.8 MB	1.2 GB	40.3 MB	2 MB
+334	ed/0a321c	882016	calling_pipeline:medakaInference_consensus (292)	CACHED	0	2026-01-12 19:01:14.539	7.3s	6.7s	106.2%	360.7 MB	1.1 GB	40.2 MB	1.6 MB
+349	be/658c12	893096	calling_pipeline:medakaInference_consensus (307)	CACHED	0	2026-01-12 19:01:38.308	8.5s	8s	123.4%	479.7 MB	1.2 GB	40.3 MB	2 MB
+346	17/870fd3	889717	calling_pipeline:medakaInference_consensus (304)	CACHED	0	2026-01-12 19:01:31.029	7.2s	6.7s	111.9%	379.3 MB	1.2 GB	40.2 MB	1.7 MB
+352	3e/fe1bc9	896226	calling_pipeline:medakaInference_consensus (310)	CACHED	0	2026-01-12 19:01:44.848	8.3s	7.6s	124.9%	478.7 MB	1.2 GB	40.3 MB	2 MB
+353	fb/9fd8ab	893555	calling_pipeline:medakaInference_consensus (311)	CACHED	0	2026-01-12 19:01:38.852	6s	5.4s	105.1%	363.9 MB	1.1 GB	40.2 MB	1.7 MB
+357	e1/959ba8	896564	calling_pipeline:medakaInference_consensus (315)	CACHED	0	2026-01-12 19:01:45.588	6.5s	6s	107.8%	372.7 MB	1.1 GB	40.2 MB	1.7 MB
+354	67/68b0ff	899673	calling_pipeline:medakaInference_consensus (312)	CACHED	0	2026-01-12 19:01:52.121	9.2s	8.6s	110.2%	410 MB	1.2 GB	40.2 MB	1.8 MB
+347	65/8bf09c	895235	calling_pipeline:medakaInference_consensus (305)	CACHED	0	2026-01-12 19:01:43.054	8.7s	8s	123.9%	523.6 MB	1.2 GB	40.3 MB	2.2 MB
+351	de/2842bd	895301	calling_pipeline:medakaInference_consensus (309)	CACHED	0	2026-01-12 19:01:43.192	6.7s	6.1s	113.2%	384.4 MB	1.2 GB	40.2 MB	1.7 MB
+358	56/d411fb	892662	calling_pipeline:medakaInference_consensus (316)	CACHED	0	2026-01-12 19:01:37.763	5.9s	5.3s	110.5%	376.6 MB	1.2 GB	40.2 MB	1.7 MB
+348	aa/d68670	892700	calling_pipeline:medakaInference_consensus (306)	CACHED	0	2026-01-12 19:01:37.842	7.9s	7.3s	125.7%	478.8 MB	1.2 GB	40.3 MB	2 MB
+350	41/09bf13	893069	calling_pipeline:medakaInference_consensus (308)	CACHED	0	2026-01-12 19:01:38.283	8.6s	7.9s	126.5%	458.9 MB	1.2 GB	40.3 MB	2 MB
+360	30/004066	891944	calling_pipeline:medakaInference_consensus (318)	CACHED	0	2026-01-12 19:01:36.228	7s	6.2s	109.8%	384.5 MB	1.1 GB	40.2 MB	1.7 MB
+344	ac/19746e	889131	calling_pipeline:medakaInference_consensus (302)	CACHED	0	2026-01-12 19:01:30.150	8.5s	7.9s	123.3%	460.3 MB	1.2 GB	40.3 MB	2 MB
+363	8a/8a56c9	897186	calling_pipeline:medakaInference_consensus (321)	CACHED	0	2026-01-12 19:01:46.880	7.7s	7.2s	122.3%	478.5 MB	1.3 GB	40.2 MB	2 MB
+365	85/553c10	898582	calling_pipeline:medakaInference_consensus (323)	CACHED	0	2026-01-12 19:01:49.896	9.2s	8.3s	120.3%	537.6 MB	1.3 GB	40.3 MB	2.2 MB
+355	a6/8db0d1	897185	calling_pipeline:medakaInference_consensus (313)	CACHED	0	2026-01-12 19:01:46.869	8.4s	7.8s	118.9%	478.3 MB	1.3 GB	40.3 MB	2 MB
+364	27/54cc29	896690	calling_pipeline:medakaInference_consensus (322)	CACHED	0	2026-01-12 19:01:45.753	6.5s	6s	107.4%	381.1 MB	1.1 GB	40.2 MB	1.7 MB
+368	e6/644455	899540	calling_pipeline:medakaInference_consensus (326)	CACHED	0	2026-01-12 19:01:51.840	8.2s	7.4s	113.0%	389.1 MB	1.1 GB	40.2 MB	1.7 MB
+356	95/f8350d	893378	calling_pipeline:medakaInference_consensus (314)	CACHED	0	2026-01-12 19:01:38.693	6.9s	6.4s	120.1%	408.2 MB	1.2 GB	40.2 MB	1.8 MB
+359	8a/af695c	892140	calling_pipeline:medakaInference_consensus (317)	CACHED	0	2026-01-12 19:01:36.915	6.1s	5.5s	107.1%	362.8 MB	1.1 GB	40.2 MB	1.7 MB
+361	4d/ad9778	899447	calling_pipeline:medakaInference_consensus (319)	CACHED	0	2026-01-12 19:01:51.716	8.9s	8.2s	128.8%	478 MB	1.2 GB	40.2 MB	2 MB
+362	76/f7eebb	901363	calling_pipeline:medakaInference_consensus (320)	CACHED	0	2026-01-12 19:01:55.303	7.8s	7.2s	101.3%	372.8 MB	1.1 GB	40.3 MB	1.7 MB
+366	13/2e0f0f	899759	calling_pipeline:medakaInference_consensus (324)	CACHED	0	2026-01-12 19:01:52.218	8.5s	7.8s	106.4%	388.6 MB	1.2 GB	40.2 MB	1.7 MB
+370	a5/adcb42	903434	calling_pipeline:medakaInference_consensus (328)	CACHED	0	2026-01-12 19:02:00.682	6.1s	5.5s	108.6%	352.8 MB	1.1 GB	40.2 MB	1.7 MB
+372	73/fe0214	902734	calling_pipeline:medakaInference_consensus (330)	CACHED	0	2026-01-12 19:01:59.106	6.7s	5.9s	109.8%	381.6 MB	1.2 GB	40.2 MB	1.7 MB
+371	a1/bf382d	903255	calling_pipeline:medakaInference_consensus (329)	CACHED	0	2026-01-12 19:02:00.064	6.7s	6.1s	112.7%	396.4 MB	1.2 GB	40.3 MB	1.8 MB
+369	29/5ad6bb	900882	calling_pipeline:medakaInference_consensus (327)	CACHED	0	2026-01-12 19:01:54.602	7.2s	6.8s	104.1%	364.9 MB	1.1 GB	40.2 MB	1.7 MB
+367	f6/31c7d1	900323	calling_pipeline:medakaInference_consensus (325)	CACHED	0	2026-01-12 19:01:53.117	8.7s	8.2s	115.6%	458.8 MB	1.2 GB	40.3 MB	2 MB
+373	ee/e335a6	903454	calling_pipeline:medakaInference_consensus (331)	CACHED	0	2026-01-12 19:02:00.711	6.8s	6.2s	113.0%	400.2 MB	1.1 GB	40.2 MB	1.8 MB
+375	1b/b8b937	913043	calling_pipeline:medakaConsensus (2)	CACHED	0	2026-01-12 19:03:04.127	7.5s	6.8s	85.3%	347.1 MB	1.1 GB	202.1 MB	9.8 MB
+24	2c/65e0e7	961666	calling_pipeline:accumulateCheckpoints (1)	COMPLETED	0	2026-01-12 19:33:32.173	1.3s	345ms	65.4%	12.3 MB	17.3 MB	979.5 KB	3 KB
+381	a0/ce0ce0	914385	output (1)	CACHED	0	2026-01-12 19:03:11.720	662ms	5ms	45.6%	0	0	98.2 KB	1.3 KB
+378	39/65a3b1	914421	calling_pipeline:run_isolates:mlstSearch (1)	CACHED	0	2026-01-12 19:03:11.758	1.8s	1.3s	86.2%	179.2 MB	216 MB	12.8 MB	8.8 MB
+380	1d/9962cd	914382	calling_pipeline:assemblyCheckpoint (1)	CACHED	0	2026-01-12 19:03:11.707	550ms	14ms	31.1%	0	0	84.2 KB	1.4 KB
+374	87/4fad39	913090	calling_pipeline:medakaConsensus (1)	CACHED	0	2026-01-12 19:03:04.229	11.7s	10.3s	53.6%	336.1 MB	1.1 GB	166.8 MB	8.4 MB
+377	0f/4084b3	914471	calling_pipeline:run_isolates:sourmash_species_id (1)	CACHED	0	2026-01-12 19:03:11.797	6m 33s	6m 32s	96.9%	4.1 GB	6.3 GB	160.8 MB	13.6 KB
+385	7c/3e1d69	916047	output (2)	CACHED	0	2026-01-12 19:03:15.984	628ms	2ms	52.0%	0	0	98.2 KB	1.3 KB
+382	e3/09ef06	916162	calling_pipeline:run_isolates:mlstSearch (2)	CACHED	0	2026-01-12 19:03:16.037	2.8s	1.8s	93.4%	174 MB	202.7 MB	16.5 MB	11.8 MB
+383	5f/8b3114	916096	calling_pipeline:run_isolates:sourmash_species_id (2)	CACHED	0	2026-01-12 19:03:16.009	6m 32s	6m 30s	96.6%	4.1 GB	6.3 GB	160.6 MB	15.1 KB
+384	8b/905825	916040	calling_pipeline:runMobSuite (2)	CACHED	0	2026-01-12 19:03:15.970	1m 12s	1m 11s	193.0%	707.7 MB	5.1 GB	299.1 MB	23.6 MB
+379	0e/f7a0e3	914439	calling_pipeline:runMobSuite (1)	CACHED	0	2026-01-12 19:03:11.776	2m 35s	2m 34s	111.0%	631.4 MB	3.3 GB	79.1 MB	15 MB
+387	61/91d854	916192	output (4)	CACHED	0	2026-01-12 19:03:16.052	860ms	11ms	32.7%	0	0	98.2 KB	1.3 KB
+388	a3/3a1e82	916062	output (3)	CACHED	0	2026-01-12 19:03:15.996	714ms	8ms	80.5%	0	0	98.2 KB	1.3 KB
+386	31/7416c8	916124	calling_pipeline:assemblyCheckpoint (2)	CACHED	0	2026-01-12 19:03:16.023	686ms	8ms	42.4%	0	0	84.3 KB	1.4 KB
+391	19/699026	923738	calling_pipeline:plasmidIdCheckpoint (1)	CACHED	0	2026-01-12 19:04:28.091	424ms	6ms	68.8%	0	0	84.3 KB	1.4 KB
+392	97/46d914	927559	calling_pipeline:plasmidIdCheckpoint (2)	CACHED	0	2026-01-12 19:05:46.660	479ms	6ms	69.9%	0	0	84.3 KB	1.5 KB
+390	56/605212	936773	calling_pipeline:run_isolates:getPointfinderSpecies (2)	CACHED	0	2026-01-12 19:09:47.660	2.1s	1.7s	134.5%	70.5 MB	2.2 GB	11.9 MB	1.5 KB
+389	c8/04211d	936452	calling_pipeline:run_isolates:getPointfinderSpecies (1)	CACHED	0	2026-01-12 19:09:44.980	2.4s	1.7s	138.9%	62.8 MB	2.1 GB	11.9 MB	1.5 KB
+394	73/0860d4	937167	calling_pipeline:run_isolates:serotyping (1)	CACHED	0	2026-01-12 19:09:49.752	1.9s	1.5s	87.5%	185.8 MB	190.8 MB	46 MB	3.7 MB
+393	0a/a4d7c5	937164	calling_pipeline:run_isolates:resfinder (2)	CACHED	0	2026-01-12 19:09:49.744	11.6s	11.3s	102.5%	269.7 MB	2.5 GB	132.5 MB	13.7 MB
+395	a5/dc78af	936706	calling_pipeline:run_isolates:resfinder (1)	CACHED	0	2026-01-12 19:09:47.429	19.8s	19.4s	99.4%	293 MB	2.5 GB	266.6 MB	9.1 MB
+396	37/043a49	939572	calling_pipeline:amrCheckpoint (1)	CACHED	0	2026-01-12 19:10:01.408	408ms	6ms	67.0%	0	0	84.3 KB	1.5 KB
+397	55/e9c111	940635	calling_pipeline:amrCheckpoint (2)	CACHED	0	2026-01-12 19:10:07.288	422ms	6ms	129.9%	0	0	84.3 KB	1.5 KB
+398	56/3a7a19	939578	calling_pipeline:collect_results (1)	CACHED	0	2026-01-12 19:10:01.417	2.4s	1.9s	149.4%	70.5 MB	2.2 GB	12.4 MB	388.4 KB
+399	3a/58874f	940642	calling_pipeline:collect_results (2)	CACHED	0	2026-01-12 19:10:07.299	2.2s	1.8s	151.2%	70.5 MB	2.2 GB	12.5 MB	67.2 KB
+376	ce/80733f	961926	calling_pipeline:accumulateCheckpoints (2)	COMPLETED	0	2026-01-12 19:33:33.517	898ms	191ms	82.8%	12.3 MB	17.3 MB	971.9 KB	3 KB
+403	c4/378dd5	962603	calling_pipeline:accumulateCheckpoints (3)	COMPLETED	0	2026-01-12 19:33:34.471	660ms	271ms	70.9%	16.5 MB	20.9 MB	972.1 KB	3.3 KB
+404	3c/c3072f	962879	calling_pipeline:accumulateCheckpoints (4)	COMPLETED	0	2026-01-12 19:33:35.163	616ms	185ms	91.6%	12.3 MB	17.3 MB	972.4 KB	3.5 KB
+400	3a/f19e3a	961975	calling_pipeline:createRunModel	COMPLETED	0	2026-01-12 19:33:33.648	2.4s	1.8s	153.6%	62.2 MB	2.1 GB	12.2 MB	517.5 KB
+405	85/10d336	963207	calling_pipeline:accumulateCheckpoints (5)	COMPLETED	0	2026-01-12 19:33:35.817	584ms	178ms	84.9%	12.3 MB	17.3 MB	972.4 KB	3.5 KB
+407	06/bce5c3	963606	calling_pipeline:accumulateCheckpoints (6)	COMPLETED	0	2026-01-12 19:33:36.437	560ms	180ms	90.4%	12.3 MB	17.3 MB	972.4 KB	3.5 KB
+408	af/230330	963849	calling_pipeline:accumulateCheckpoints (7)	COMPLETED	0	2026-01-12 19:33:37.031	697ms	226ms	87.0%	12.3 MB	17.3 MB	972.4 KB	3.6 KB
+409	d0/ee1be2	964279	calling_pipeline:accumulateCheckpoints (8)	COMPLETED	0	2026-01-12 19:33:37.768	589ms	183ms	91.4%	12.3 MB	17.3 MB	972.6 KB	3.7 KB
+410	b4/fc311b	964455	calling_pipeline:accumulateCheckpoints (9)	COMPLETED	0	2026-01-12 19:33:38.391	612ms	183ms	86.8%	12.3 MB	17.3 MB	972.6 KB	3.7 KB
+411	67/a58039	964795	calling_pipeline:accumulateCheckpoints (10)	COMPLETED	0	2026-01-12 19:33:39.036	570ms	178ms	90.2%	12.3 MB	17.3 MB	972.7 KB	3.8 KB
+412	9c/e9702e	964977	calling_pipeline:accumulateCheckpoints (11)	COMPLETED	0	2026-01-12 19:33:39.640	639ms	199ms	84.6%	12.8 MB	17.3 MB	972.7 KB	3.9 KB
+413	0e/37c5e5	965309	calling_pipeline:accumulateCheckpoints (12)	COMPLETED	0	2026-01-12 19:33:40.311	627ms	197ms	85.7%	12.3 MB	17.3 MB	972.8 KB	3.9 KB
+414	f9/f4f3d4	965645	calling_pipeline:accumulateCheckpoints (13)	COMPLETED	0	2026-01-12 19:33:40.985	624ms	188ms	89.4%	12.3 MB	17.3 MB	972.9 KB	4 KB
+415	48/7e90bc	965831	calling_pipeline:accumulateCheckpoints (14)	COMPLETED	0	2026-01-12 19:33:41.642	639ms	190ms	88.3%	12.3 MB	17.3 MB	973 KB	4.1 KB
+401	77/c35d65	962002	calling_pipeline:makePerSampleReports (1)	COMPLETED	0	2026-01-12 19:33:33.673	15.3s	14.7s	103.9%	392.7 MB	2.5 GB	57.7 MB	2.3 MB
+402	71/d9d117	962033	calling_pipeline:makePerSampleReports (2)	COMPLETED	0	2026-01-12 19:33:33.694	15.3s	14.7s	102.0%	392.7 MB	2.5 GB	57.3 MB	2.3 MB
+416	84/5e5e14	966978	calling_pipeline:perSampleReportingCheckpoint (1)	COMPLETED	0	2026-01-12 19:33:49.025	831ms	10ms	64.2%	0	0	84.3 KB	1.4 KB
+417	91/4c0560	967015	calling_pipeline:perSampleReportingCheckpoint (2)	COMPLETED	0	2026-01-12 19:33:49.063	812ms	7ms	119.6%	0	0	84.3 KB	1.4 KB
+418	c2/6451e5	967242	calling_pipeline:accumulateCheckpoints (15)	COMPLETED	0	2026-01-12 19:33:49.885	777ms	265ms	89.7%	11.2 MB	15.5 MB	973.1 KB	4.2 KB
+419	21/0dc20c	967429	calling_pipeline:accumulateCheckpoints (16)	COMPLETED	0	2026-01-12 19:33:50.694	613ms	181ms	88.7%	12.3 MB	17.3 MB	973.2 KB	4.3 KB
+406	92/480ed5	963320	calling_pipeline:makeReport	COMPLETED	0	2026-01-12 19:33:36.119	20.3s	19.8s	102.8%	425.4 MB	2.6 GB	59.8 MB	4.2 MB
+423	2d/a2fac6	967818	output (7)	COMPLETED	0	2026-01-12 19:33:56.471	709ms	12ms	96.2%	0	0	98.2 KB	1.3 KB
+422	73/b141ad	967879	output (6)	COMPLETED	0	2026-01-12 19:33:56.531	657ms	6ms	112.0%	0	0	98.2 KB	1.3 KB
+421	0a/aaa335	967826	output (5)	COMPLETED	0	2026-01-12 19:33:56.496	738ms	8ms	55.0%	0	0	98.2 KB	1.3 KB
+427	50/cee6f6	967970	output (11)	COMPLETED	0	2026-01-12 19:33:56.571	685ms	4ms	147.1%	0	0	98.2 KB	1.3 KB
+425	72/174964	967936	output (9)	COMPLETED	0	2026-01-12 19:33:56.557	776ms	4ms	48.5%	0	0	98.2 KB	1.3 KB
+426	bb/8aa70a	967905	output (10)	COMPLETED	0	2026-01-12 19:33:56.545	814ms	3ms	123.1%	0	0	98.2 KB	1.3 KB
+430	12/982a14	968245	output (14)	COMPLETED	0	2026-01-12 19:33:56.696	777ms	4ms	95.9%	0	0	98.2 KB	1.3 KB
+436	18/780527	968145	output (20)	COMPLETED	0	2026-01-12 19:33:56.643	870ms	6ms	38.9%	0	0	98.2 KB	1.3 KB
+424	25/fdf788	968121	output (8)	COMPLETED	0	2026-01-12 19:33:56.628	976ms	12ms	53.0%	0	0	98.2 KB	1.3 KB
+433	8b/155f19	968345	output (17)	COMPLETED	0	2026-01-12 19:33:56.728	899ms	7ms	77.6%	0	0	98.2 KB	1.3 KB
+429	b5/236306	968414	output (13)	COMPLETED	0	2026-01-12 19:33:56.768	866ms	10ms	50.5%	0	0	98.2 KB	1.3 KB
+435	80/53c74d	968072	output (19)	COMPLETED	0	2026-01-12 19:33:56.603	1.1s	3ms	105.8%	0	0	98.2 KB	1.3 KB
+432	11/d40761	968487	output (16)	COMPLETED	0	2026-01-12 19:33:56.810	967ms	4ms	45.4%	0	0	98.2 KB	1.3 KB
+420	6b/b1468a	967853	calling_pipeline:reportingCheckpoint	COMPLETED	0	2026-01-12 19:33:56.517	1.4s	7ms	83.9%	0	0	84.3 KB	1.5 KB
+428	28/a7c4de	969147	output (12)	COMPLETED	0	2026-01-12 19:33:57.195	744ms	3ms	168.4%	0	0	98.2 KB	1.3 KB
+431	61/ed310e	968196	output (15)	COMPLETED	0	2026-01-12 19:33:56.668	1.3s	3ms	93.1%	0	0	98.2 KB	1.3 KB
+437	25/257174	969168	output (21)	COMPLETED	0	2026-01-12 19:33:57.208	777ms	4ms	143.3%	0	0	98.2 KB	1.3 KB
+434	6e/a0f4b4	968024	output (18)	COMPLETED	0	2026-01-12 19:33:56.590	1.4s	12ms	80.3%	0	0	98.2 KB	1.3 KB
+439	37/a3a1ce	969249	output (23)	COMPLETED	0	2026-01-12 19:33:57.247	852ms	6ms	90.1%	0	0	98.2 KB	1.3 KB
+440	ae/65db3d	969499	output (24)	COMPLETED	0	2026-01-12 19:33:57.356	855ms	2ms	63.1%	0	0	98.2 KB	1.3 KB
+438	d8/e5c4aa	969290	output (22)	COMPLETED	0	2026-01-12 19:33:57.268	974ms	4ms	46.7%	0	0	98.2 KB	1.3 KB
+441	e8/07a16e	970375	calling_pipeline:accumulateCheckpoints (17)	COMPLETED	0	2026-01-12 19:33:57.973	569ms	176ms	86.3%	12.3 MB	17.3 MB	973.3 KB	4.4 KB
