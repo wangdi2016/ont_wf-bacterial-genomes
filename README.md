@@ -16,6 +16,12 @@ Approximate run time: 20-40 minutes per sample with ~50x coverage using minimum 
 
 ARM processor support: False
 
+# Software requirement
+
+Singularity 4.2.2
+
+nextflow 25.10.0
+
 # Download a demo dataset
 A demo dataset is provided for testing of the workflow. It can be downloaded and unpacked using the following commands:
 
