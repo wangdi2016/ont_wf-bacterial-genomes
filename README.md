@@ -33,8 +33,10 @@ tar -xzvf wf-bacterial-genomes-demo.tar.gz
 
 # Download an annotation dataset
 
+```
 wget https://zenodo.org/record/14916843/files/db.tar.xz
 tar Jxvf db.tar.xz
+```
 
 db folder is about 83 Gb
 
